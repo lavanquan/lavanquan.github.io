@@ -2,9 +2,11 @@
     <a id="menu" role="button">
         <svg id="open" class="icon-menu"><use xlink:href="#icon-menu"></use></svg>
     </a>
-	<a>
-		<link rel="icon" href="{{ site.baseurl }}/favicon.ico">
-	</a>
+	<h1 class="logo">
+		<a>
+			{% include logo.html %}
+		</a>
+	</h1>
     <h1 class="logo">
         <a href="{{ site.baseurl }}/">
             {% if site.use_logo %}
