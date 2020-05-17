@@ -1,7 +1,7 @@
 ---
 layout: author
 photo: /assets/img/uploads/profile.jpg
-name: Rakuten La
+name: lavanquan
 display_name: Rankuten La
 position: Data Scientist
 bio: Just a Data Scientist.
