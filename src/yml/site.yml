@@ -1,14 +1,14 @@
-name: Jekflix
-title: Jekflix | A blog theme for Jekyll
-description: Jekflix is a template for Jekyll inspired by Netflix and made by Thiago Rossener.
+name: Rakuten La
+title: Rakuten La | Blog chia sẻ về cuộc sống
+description: Đây là một blog chia sẻ về cuộc sống của tôi.
 tags:
   - blog
-  - template
-  - jekyll
-  - theme
-  - netlify
-email: youremail@xyz.com
-disqus_username: disqus_username
+  - lifestyle
+  - computer
+  - algorithm
+  - foreign
+email: kenlvq@gmail.com
+disqus_username: Phoebus
 show_hero: true
 menu:
   - title: Home
@@ -17,5 +17,3 @@ menu:
     url: /about
   - title: Contact
     url: /contact
-  - title: Feed
-    url: /feed.xml
