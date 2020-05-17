@@ -18,9 +18,19 @@
                     <svg id="clock" class="icon-clock"><use xlink:href="#icon-clock"></use></svg>
                     <span>{{ minutesText }}</span>
                 </p>
+				<div class="post_info">
+					{% if page.previous.url %}
+						<a class="prev" style = "color: #074B80;" href="{{page.previous.url}}">&laquo; {{page.previous.title}}</a>
+						<!-- <hr> -->
+					{% endif %}
+					{% if page.next.url %}
+						<a class="next" style = "float: right; color: #074B80;" href="{{page.next.url}}">{{page.next.title}} &raquo;</a>
+						<hr>
+				{% endif %}
+				</div>
                 <h1 class="post-title">{{ page.title }}</h1>
                 <p class="post-subtitle">{{ page.subtitle }}</p>
-
+				
                 {% if page.image and paginator.activated == nil %}
                     <img src="{{ page.image }}" alt="Featured image" class="post-cover">
                 {% endif %}
@@ -75,16 +85,7 @@
         {% if site.show_modal_on_exit %}
             {% include modal.html title="Don't go yet!" subtitle="You may also like..." closed=true showOnExit=true %}
         {% endif %}
-		<div class="post_info">
-					{% if page.previous.url %}
-						<a class="prev" style = "color: #074B80;" href="{{page.previous.url}}">&laquo; {{page.previous.title}}</a>
-						<!-- <hr> -->
-					{% endif %}
-					{% if page.next.url %}
-						<a class="next" style = "float: right; color: #074B80;" href="{{page.next.url}}">{{page.next.title}} &raquo;</a>
-						<hr>
-				{% endif %}
-				</div>
+		
         {% include subscription.html %}
         {% include share.html %}
         {% include author.html %}
