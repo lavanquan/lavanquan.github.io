@@ -10,7 +10,7 @@ category: life
 tags:
   - books
   - read
-author: thiagorossener
+author: lavanquan
 paginate: true
 ---
 
