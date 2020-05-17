@@ -2,12 +2,15 @@
     <a id="menu" role="button">
         <svg id="open" class="icon-menu"><use xlink:href="#icon-menu"></use></svg>
     </a>
+	<a>
+		<link rel="icon" href="{{ site.baseurl }}/favicon.ico">
+	</a>
     <h1 class="logo">
         <a href="{{ site.baseurl }}/">
             {% if site.use_logo %}
                 {% include logo.html %}
             {% else %}
-                {{ site.name }} <span class="version">{{ site.version }}</span>
+                {{ site.name }}
             {% endif %}
         </a>
     </h1>
