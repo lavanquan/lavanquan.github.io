@@ -1,15 +1,15 @@
 # Site Settings
-name: Jekflix
-title: Jekflix | A blog theme for Jekyll
-description: Jekflix is a template for Jekyll inspired by Netflix and made by Thiago Rossener.
+name: Rakuten La
+title: Rakuten La | Blog chia sẻ về cuộc sống
+description: Đây là một blog chia sẻ về cuộc sống của tôi.
 tags:
   - blog
-  - template
-  - jekyll
-  - theme
-  - netlify
-email: youremail@xyz.com
-disqus_username: disqus_username
+  - lifestyle
+  - computer
+  - algorithm
+  - foreign
+email: kenlvq@gmail.com
+disqus_username: Phoebus
 show_hero: true
 menu:
   - title: Home
@@ -22,12 +22,12 @@ menu:
 
 # Social Media Settings
 # Remove the item if you don't need it
-github_username: github_username
-facebook_username: facebook_username
-twitter_username: twitter_username
-instagram_username: instagram_username
-linkedin_username: linkedin_username
-medium_username: medium_username
+github_username: lavanquan
+facebook_username: kenlvq
+twitter_username: 
+instagram_username: la_van_quan
+linkedin_username: la-quân-8b0975166
+medium_username: 
 
 
 # Posts Settings
