@@ -3,7 +3,7 @@ layout: author
 photo: /assets/img/uploads/profile.jpg
 name: Rakuten La
 display_name: Rankuten La
-position: Dât Scientist
+position: Data Scientist
 bio: Just a Data Scientist.
 github_username: lavanquan
 facebook_username: kenlvq
