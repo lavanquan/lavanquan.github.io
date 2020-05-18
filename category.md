@@ -2,7 +2,7 @@
 layout: page
 title: Categories
 description: Some description.
-permalink: /category/
+permalink: /category
 menu: true
 ---
 {% assign date_format = site.date_format | default: "%m/%d/%Y" %}
