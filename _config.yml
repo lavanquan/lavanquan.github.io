@@ -20,6 +20,8 @@ menu:
     url: /contact
   - title: Tags
     url: /tags
+  - title: Categories
+    url: /categories
 
 # Social Media Settings
 # Remove the item if you don't need it
