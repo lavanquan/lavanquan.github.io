@@ -21,7 +21,7 @@ menu:
   - title: By me a beer!
     url: /tipme
   - title: Categories
-    url: /categories
+    url: /category
 
 # Social Media Settings
 # Remove the item if you don't need it
