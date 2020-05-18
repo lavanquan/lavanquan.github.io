@@ -18,8 +18,8 @@ menu:
     url: /about
   - title: Contact
     url: /contact
-  - title: Tags
-    url: /tags
+  - title: By me a beer!
+    url: /tipme
   - title: Categories
     url: /categories
 
