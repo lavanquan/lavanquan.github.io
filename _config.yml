@@ -18,6 +18,8 @@ menu:
     url: /about
   - title: Contact
     url: /contact
+  - title: By Me a Beer!
+    url: /tipme
 
 # Social Media Settings
 # Remove the item if you don't need it
