@@ -2,7 +2,7 @@
 layout: page
 title: About
 description: Some description.
-permalink: /about/
+permalink: /tipme/
 ---
 
 <img class="img-rounded" src="/assets/img/uploads/profile.jpg" alt="Rakuten La" width="200">
