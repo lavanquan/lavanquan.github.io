@@ -4,8 +4,8 @@ layout: post
 title: Tobaco Industry Fumes over Passive Smoking
 subtitle: Tobaco Industry Fumes over Passive Smoking
 description: Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
-image: https://photos.google.com/album/AF1QipPpL_c6GQY7xN505lIDdFdxx30S-K0JxQe4IVV7/photo/AF1QipOUKqNz65B1QscuUm7N1mlvBoy6yqiFHvskUmAZ
-optimized_image: https://photos.google.com/album/AF1QipPpL_c6GQY7xN505lIDdFdxx30S-K0JxQe4IVV7/photo/AF1QipNbdiErAGEeiwKYCQ2GcbdxdOBkZGANyzOlHjld
+image: /assets/img/post/tobaco_cover.png
+optimized_image: /assets/img/post/tobaco_cover1.png
 category: ielts
 tags:
   - ielts
