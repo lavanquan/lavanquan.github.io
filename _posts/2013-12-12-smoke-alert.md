@@ -1,17 +1,17 @@
 ---
-date: 2018-11-22 12:26:40
+date: 2017-07-29 13:24:49
 layout: post
-title: Why books should be your priority?
-subtitle: Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+title: Smoke alert
 description: Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
-image: https://res.cloudinary.com/dm7h7e8xj/image/upload/v1559822138/theme9_v273a9.jpg
-optimized_image: https://res.cloudinary.com/dm7h7e8xj/image/upload/c_scale,w_380/v1559822138/theme9_v273a9.jpg
-category: life
+image: https://res.cloudinary.com/dm7h7e8xj/image/upload/v1559824021/theme12_e0vxlr.jpg
+optimized_image: https://res.cloudinary.com/dm7h7e8xj/image/upload/c_scale,w_380/v1559824021/theme12_e0vxlr.jpg
+subtitle: Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+category: 'blog'
 tags:
-  - books
-  - read
-author: lavanquan
-paginate: true
+  - jekyll
+  - wordpress
+  - blog
+author: thiagorossener
 ---
 
 Cas sociis natoque penatibus et magnis <a href="#">dis parturient montes</a>, nascetur ridiculus mus. *Aenean eu leo quam.* Pellentesque ornare sem lacinia quam venenatis vestibulum. Sed posuere consectetur est at lobortis. Cras mattis consectetur purus sit amet fermentum.
@@ -19,8 +19,6 @@ Cas sociis natoque penatibus et magnis <a href="#">dis parturient montes</a>, na
 > Curabitur blandit tempus porttitor. Nullam quis risus eget urna mollis ornare vel eu leo. Nullam id dolor id nibh ultricies vehicula ut id elit.
 
 Etiam porta **sem malesuada magna** mollis euismod. Cras mattis consectetur purus sit amet fermentum. Aenean lacinia bibendum nulla sed consectetur.
-
-<!--page-->
 
 ## Inline HTML elements
 
@@ -34,8 +32,6 @@ HTML defines a long list of available inline tags, a complete list of which can 
 - Superscript <sup>text</sup> uses `<sup>` and subscript <sub>text</sub> uses `<sub>`.
 
 Most of these elements are styled by browsers with few modifications on our part.
-
-<!--page-->
 
 # Heading 1
 
@@ -62,8 +58,6 @@ adder(2, 6);
 // > 8
 ```
 
-<!--page-->
-
 Aenean lacinia bibendum nulla sed consectetur. Etiam porta sem malesuada magna mollis euismod. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa.
 
 ## Lists
@@ -79,8 +73,6 @@ Donec ullamcorper nulla non metus auctor fringilla. Nulla vitae elit libero, a p
 1. Vestibulum id ligula porta felis euismod semper.
 2. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus.
 3. Maecenas sed diam eget risus varius blandit sit amet non magna.
-
-<!--page-->
 
 Cras mattis consectetur purus sit amet fermentum. Sed posuere consectetur est at lobortis.
 
@@ -132,16 +124,6 @@ Aenean lacinia bibendum nulla sed consectetur. Lorem ipsum dolor sit amet, conse
   </tbody>
 </table>
 
-<!--page-->
-
 Nullam id dolor id nibh ultricies vehicula ut id elit. Sed posuere consectetur est at lobortis. Nullam quis risus eget urna mollis ornare vel eu leo.
-
-
-
-
-
-
-
-
 
 
