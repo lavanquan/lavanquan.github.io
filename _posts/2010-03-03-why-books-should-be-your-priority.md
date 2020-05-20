@@ -4,8 +4,8 @@ layout: post
 title: Why books should be your priority?
 subtitle: Lorem ipsum dolor sit amet, consectetur adipisicing elit.
 description: Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
-image: https://www.google.com/url?sa=i&url=http%3A%2F%2Fwww.myhealthtime.ie%2Fpassive-smoking-protect-your-family-and-friends%2F&psig=AOvVaw3thOdyj5oajIagJ1k-yyui&ust=1590054988313000&source=images&cd=vfe&ved=0CAIQjRxqFwoTCMDFk8iWwukCFQAAAAAdAAAAABAD
-optimized_image: https://www.google.com/url?sa=i&url=http%3A%2F%2Fwww.myhealthtime.ie%2Fpassive-smoking-protect-your-family-and-friends%2F&psig=AOvVaw3thOdyj5oajIagJ1k-yyui&ust=1590054988313000&source=images&cd=vfe&ved=0CAIQjRxqFwoTCMDFk8iWwukCFQAAAAAdAAAAABAD
+image: 
+optimized_image: 
 category: ielts
 tags:
   - ielts
