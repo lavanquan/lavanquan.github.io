@@ -4,8 +4,8 @@ layout: post
 title: Tobaco Industry Fumes over Passive Smoking
 subtitle: Tobaco Industry Fumes over Passive Smoking
 description: Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
-image: https://www.google.com/url?sa=i&url=http%3A%2F%2Fwww.myhealthtime.ie%2Fpassive-smoking-protect-your-family-and-friends%2F&psig=AOvVaw2D4DepczLkUz7330Biwytf&ust=1590063027643000&source=images&cd=vfe&ved=0CAIQjRxqFwoTCJiD5sG0wukCFQAAAAAdAAAAABAD
-optimized_image: https://www.google.com/url?sa=i&url=http%3A%2F%2Fwww.myhealthtime.ie%2Fpassive-smoking-protect-your-family-and-friends%2F&psig=AOvVaw2D4DepczLkUz7330Biwytf&ust=1590063027643000&source=images&cd=vfe&ved=0CAIQjRxqFwoTCJiD5sG0wukCFQAAAAAdAAAAABAD
+image: https://photos.google.com/album/AF1QipPpL_c6GQY7xN505lIDdFdxx30S-K0JxQe4IVV7/photo/AF1QipOUKqNz65B1QscuUm7N1mlvBoy6yqiFHvskUmAZ
+optimized_image: https://photos.google.com/album/AF1QipPpL_c6GQY7xN505lIDdFdxx30S-K0JxQe4IVV7/photo/AF1QipNbdiErAGEeiwKYCQ2GcbdxdOBkZGANyzOlHjld
 category: ielts
 tags:
   - ielts
