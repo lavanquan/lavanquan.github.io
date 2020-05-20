@@ -1,15 +1,15 @@
 ---
-date: 2018-11-22 12:26:40
+date: 2020-05-20 17:09:00
 layout: post
-title: Why books should be your priority?
-subtitle: Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+title: Tobaco Industry Fumes over Passive Smoking
+subtitle: Tobaco Industry Fumes over Passive Smoking
 description: Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
-image: https://res.cloudinary.com/dm7h7e8xj/image/upload/v1559822138/theme9_v273a9.jpg
-optimized_image: https://res.cloudinary.com/dm7h7e8xj/image/upload/c_scale,w_380/v1559822138/theme9_v273a9.jpg
-category: life
+image: https://www.google.com/url?sa=i&url=http%3A%2F%2Fwww.myhealthtime.ie%2Fpassive-smoking-protect-your-family-and-friends%2F&psig=AOvVaw2D4DepczLkUz7330Biwytf&ust=1590063027643000&source=images&cd=vfe&ved=0CAIQjRxqFwoTCJiD5sG0wukCFQAAAAAdAAAAABAD
+optimized_image: https://www.google.com/url?sa=i&url=http%3A%2F%2Fwww.myhealthtime.ie%2Fpassive-smoking-protect-your-family-and-friends%2F&psig=AOvVaw2D4DepczLkUz7330Biwytf&ust=1590063027643000&source=images&cd=vfe&ved=0CAIQjRxqFwoTCJiD5sG0wukCFQAAAAAdAAAAABAD
+category: ielts
 tags:
-  - books
-  - read
+  - ielts
+  - reading
 author: lavanquan
 paginate: true
 ---
