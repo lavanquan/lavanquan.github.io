@@ -11,9 +11,8 @@ description: Some description.
 
 # About
 
-Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
-tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
-quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
-consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
-cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
-proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+Chào mọi người, mình là **Rakuten La**. Sau chuỗi ngày sống như một còn thú, mình quyết định viết blog để nó bớt thú tính lại :(.
+Ý định ban đầu là chia sẻ kiến thức về Công Nghệ Thông Tin, nhưng mà chả biết phải bắt đầu từ đâu. Giờ nhiều chuyên gia chia sẻ rồi, mình làm nữa chắc là ngu người.
+Vậy nên làm cái blog để tự kỷ vậy. Thi thoảng lên cơn thì sẽ chia sẻ kiến thức. Điên hơn nữa thì biết đâu lại chia sẻ về việc học ngoại ngữ (mình đang tự học Ielts).
+Với cả mình rất hay bị tụt mood, nên hay trích dẫn thơ hay, câu nói hay. Mình cũng thích đàn guzheng, nếu ai cùng sở thích thì để lại lời nhắn và cùng chia sẻ nhé.
+> Ộp Ộp Ộp
