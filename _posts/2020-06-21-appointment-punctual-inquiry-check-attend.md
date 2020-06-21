@@ -4,8 +4,8 @@ layout: post
 title: Appointment, Punctual, Inquiry, Check, Attend
 subtitle: Things I learned while studying IELTS.
 description: Things I learned while studying IELTS.
-image: /assets/img/post/tobaco_cover.png
-optimized_image: /assets/img/post/tobaco_cover1.png
+image: https://res.cloudinary.com/lavanquan/image/upload/c_scale,h_399,w_709/v1592742736/ielts/IMG_0361_idcowh.jpg
+optimized_image: https://res.cloudinary.com/lavanquan/image/upload/c_scale,h_200,w_380/v1592742736/ielts/IMG_0361_idcowh.jpg
 category: ielts
 tags:
   - ielts
