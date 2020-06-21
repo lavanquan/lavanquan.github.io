@@ -14,7 +14,7 @@ tags:
 author: lavanquan
 paginate: true
 ---
-## Appointment, Rendezvous, Meeting
+## 1. Appointment, Rendezvous, Meeting
 
 Cả 3 từ trên đều mang tiếng việt là cuộc gặp, cuộc hẹn. Nhưng chúng cõ những sự khác biệt nho nhỏ.
 
@@ -28,7 +28,7 @@ Không dùng *rendezvous* và *meeting*
 
 Ex: *The directors had a secret rendezvous before the formal meeting took place.*
 
-## Punctual and On Time
+## 2. Punctual and On Time
 
 Cả hai từ trên đều mang nghĩa là đúng giờ = *not late*.
 
@@ -38,7 +38,7 @@ In addition, *punctual* is used to describe a person who is always on time. **On
 
 Ex: *He is punctual.*
 
-## Inquiry, Question, Query
+## 3. Inquiry, Question, Query
 
 Cả 3 từ trên mang nghĩa gần giống nhau. Chúng khác nhau về độ formal: **Inquiry** > **Question** > **Query**. 
 
@@ -49,7 +49,7 @@ Cả 3 từ trên mang nghĩa gần giống nhau. Chúng khác nhau về độ f
 *I have a query*: is rarely used. 
 
 
-## Urgency and Emergency
+## 4. Urgency and Emergency
 
 Cả 2 đều mang nghĩa tiếng việt là khẩn cấp.
 
@@ -61,7 +61,7 @@ Ex: *She didn't understand the urgency of the situation.*
 
 Ex: *You can land a plane on water in an emergency.*
 
-## Check vs Test
+## 5. Check vs Test
 
 Cả hai từ đều mang nghĩa là kiểm tra.
 
@@ -73,7 +73,7 @@ Ex: *The doctor will call next week to check on your progress.*
 
 Ex: *The manufacturers are currently testing the new engine.*
 
-## Join in, Attend, Participate in, Take part in
+## 6. Join in, Attend, Participate in, Take part in
 
 Chúng kều mang nghĩa là tham gia, tham dự.
 
@@ -90,7 +90,7 @@ Ex: *The meeting is on the fifth and we're hoping everyone will attend.*
 Ex: *She never participates in any of our discussions.*
 All the children took part in the Thanksgiving play.
 
-## On duty and Off duty
+## 7. On duty and Off duty
 
 **On duty**: working, and responsible for dealing with things that happen at work.
 
