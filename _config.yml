@@ -1,13 +1,13 @@
 # Site Settings
-name: Rakuten La
-title: Rakuten La | Blog chia sẻ về cuộc sống
-description: Đây là một blog chia sẻ về cuộc sống của tôi.
+name: Phoebus La
+title: Phoebus La | A Sandbox About My Life
+description: A Sandbox About My Life
 tags:
-  - blog
+  - poem
   - lifestyle
   - computer
   - algorithm
-  - foreign
+  - photography
 email: kenlvq@gmail.com
 disqus_username: Phoebus
 show_hero: true
@@ -18,7 +18,7 @@ menu:
     url: /about
   - title: Contact
     url: /contact
-  - title: By Me a Beer!
+  - title: By Me A Tea!
     url: /tipme
 
 # Social Media Settings
