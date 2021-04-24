@@ -2,9 +2,9 @@
 layout: author
 photo: /assets/img/uploads/profile.jpg
 name: lavanquan
-display_name: Rankuten La
+display_name: Phoebus
 position: Data Scientist
-bio: Just a Data Scientist.
+bio: A Noob.
 github_username: lavanquan
 facebook_username: kenlvq
 twitter_username: 
