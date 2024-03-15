@@ -11,7 +11,7 @@
 # -----------------
 en: &DEFAULT_EN
   header:
-    title: Welcome to my Homepage!
+    title: Welcome to Quan La Homepage!
     text: It's Nice To Meet You
     button: Tell Me More
     buttonlink: "#services"
@@ -32,45 +32,45 @@ en: &DEFAULT_EN
         icon: fab fa-markdown
 
   portfolio:
-    title: "Portfolio"
-    text: "Lorem ipsum dolor sit amet consectetur."
+    title: "Projects"
+    text: "Some random research I'm interested in."
     section: portfolio
     closebutton: "Close Project"
 
   timeline:
-    title: "Timeline"
-    text: "Lorem ipsum timeline"
+    title: "News"
+    text: "Update some hot news."
     section: timeline
     # left is the default
     #start_align: "left"
     events:
-      - title: "Our Humble Beginnings"
-        year: "2009-2011"
-        desc: "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sunt ut voluptatum eius sapiente, totam reiciendis temporibus qui quibusdam, recusandae sit vero unde, sed, incidunt et ea quo dolore laudantium consectetur!"
-        image: assets/img/timeline/1.jpg
+      - title: "PhD Student"
+        year: "2024"
+        desc: "I become a Ph.D. student at School of Computer Science, The University of Sydney . I am fortunate to be advised by Professor Nguyen Tran."
+        image: assets/img/timeline/sydney.jpg
         alt:
-      - title: "An Agency is Born"
-        year: "March 2011"
-        desc: "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sunt ut voluptatum eius sapiente, totam reiciendis temporibus qui quibusdam, recusandae sit vero unde, sed, incidunt et ea quo dolore laudantium consectetur!"
-        image: assets/img/timeline/2.jpg
+      - title: "Lecturer"
+        year: "2022"
+        desc: "I became a Lecturer at Phenikaa University"
+        image: assets/img/timeline/phenikaa.jpg
         alt:
-      - title: "Jekyll Theme is created"
-        year: "2019"
-        desc: "Ravi Riley converted Agency, a Bootstrap-based theme, into a Jekyll theme. The Jekyll theme can be installed as a Ruby gem, or remotely. For more information, visit the documentation."
-        image: assets/img/timeline/3.jpg
+      - title: "Master"
+        year: "2020-2022"
+        desc: "I started the Master's degree at Hanoi University of Science and Technology."
+        image: assets/img/timeline/hust.jpg
         alt: image alt text
-      - title: "Title"
-        year: "2009-2011"
-        desc: "Your description here, **Markdown** is fully supported."
-        image: assets/img/timeline/4.jpg
+      - title: "Bachelor"
+        year: "2013-2018"
+        desc: "I was a student at Hanoi University of Science and Technology."
+        image: assets/img/timeline/hust.jpg
         alt:
         # you can enforce the alignment
         align: right
-    end: "Be Part <br> of Our <br> Story!"
+    end: "Continue!"
 
   about:
-    title: "About Us"
-    text: "our story"
+    title: "About Me"
+    text: "my story"
     body: "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aut eaque, laboriosam veritatis, quos non quis ad perspiciatis, totam corporis ea, alias ut unde. **Markdown** supported."
     section: about
 
@@ -130,7 +130,7 @@ en: &DEFAULT_EN
             icon: fab fa-linkedin-in
 
   contact:
-    title: "Contact Us"
+    title: "Contact Me"
     text: "Lorem ipsum or call 123456789"
     section: contact
     name: "Name*"
