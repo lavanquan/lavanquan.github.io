@@ -100,7 +100,7 @@ en: &DEFAULT_EN
     people:
       - name: "Quan La"
         role: "PhD"
-        image: assets/img/team/2.jpg
+        image: assets/img/team/quan.jpg
         social:
           # - url: https://twitter.com
           #   icon: fab fa-twitter
