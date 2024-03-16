@@ -1,13 +1,13 @@
 ---
 title: Federated Learning
 subtitle: Federated Learning.
-image: assets/img/portfolio/03-full.jpg
+image: assets/img/portfolio/fed.jpg
 alt: 
 
 caption:
   title: Federated Learning
   subtitle: Federated Learning
-  thumbnail: assets/img/portfolio/03-thumbnail.jpg
+  thumbnail: assets/img/portfolio/fed.jpg
 ---
 Use this area to describe your project. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Est blanditiis dolorem culpa incidunt minus dignissimos deserunt repellat aperiam quasi sunt officia expedita beatae cupiditate, maiores repudiandae, nostrum, reiciendis facere nemo!
 
