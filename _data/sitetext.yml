@@ -65,7 +65,7 @@ en: &DEFAULT_EN
       #   image: assets/img/timeline/hust.jpg
       #   alt:
         # you can enforce the alignment
-        align: right
+        align: left
     end: "Continue!"
 
   about:
