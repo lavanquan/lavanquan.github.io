@@ -298,20 +298,20 @@ es: &DEFAULT_ES
           - url: https://linkedin.com
             icon: fab fa-linkedin-in
 
-  contact:
-    title: "Contáctenos"
-    text: "Lorem ipsum or call 123456789"
-    section: contacto
-    name: "Nombre*"
-    name-validation: "Por favor ingrese su nombre."
-    email: "Correo Electrónico*"
-    email-validation: "Por favor ingrese su correo electrónico."
-    phone: "Número Telefónico*"
-    phone-validation: "Por favor ingrese su número telefónico."
-    message: "Mensaje*"
-    message-validation: "Por favor escriba un mensaje."
-    subject: "Envío del formulario de contacto"
-    submit: "Enviar Mensaje"
+  # contact:
+  #   title: "Contáctenos"
+  #   text: "Lorem ipsum or call 123456789"
+  #   section: contacto
+  #   name: "Nombre*"
+  #   name-validation: "Por favor ingrese su nombre."
+  #   email: "Correo Electrónico*"
+  #   email-validation: "Por favor ingrese su correo electrónico."
+  #   phone: "Número Telefónico*"
+  #   phone-validation: "Por favor ingrese su número telefónico."
+  #   message: "Mensaje*"
+  #   message-validation: "Por favor escriba un mensaje."
+  #   subject: "Envío del formulario de contacto"
+  #   submit: "Enviar Mensaje"
 
   footer:
     legal: "Política de Privacidad"
