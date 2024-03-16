@@ -46,7 +46,7 @@ en: &DEFAULT_EN
     events:
       - title: "PhD Student"
         year: "2024"
-        desc: "I become a Ph.D. student at School of Computer Science, The University of Sydney . I am fortunate to be advised by Professor Nguyen Tran."
+        desc: "At The University of Sydney. <br> Supervisor: Professor. Nguyen Tran."
         image: assets/img/timeline/sydney.jpg
         alt:
       - title: "Lecturer"
