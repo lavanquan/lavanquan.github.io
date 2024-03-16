@@ -137,20 +137,20 @@ en: &DEFAULT_EN
   #       url: https://github.com/raviriley/agency-jekyll-theme
   #       logo: assets/img/clients/creative-market.jpg
 
-  # contact:
-  #   title: "Contact Me"
-  #   # text: "Lorem ipsum or call 123456789"
-  #   section: contact
-  #   name: "Name*"
-  #   name-validation: "Please enter your name."
-  #   email: "Email*"
-  #   email-validation: "Please enter your email address."
-  #   phone: "Phone Number"
-  #   phone-validation: "Please enter your phone number."
-  #   message: "Message*"
-  #   message-validation: "Please enter a message."
-  #   subject: "Contact Form Submission"
-  #   submit: "Send Message"
+  contact:
+    title: "Contact Me"
+    # text: "Lorem ipsum or call 123456789"
+    section: contact
+    name: "Name*"
+    name-validation: "Please enter your name."
+    email: "Email*"
+    email-validation: "Please enter your email address."
+    phone: "Phone Number"
+    phone-validation: "Please enter your phone number."
+    message: "Message*"
+    message-validation: "Please enter a message."
+    subject: "Contact Form Submission"
+    submit: "Send Message"
 
   footer:
     legal: "Privacy Policy"
@@ -298,20 +298,20 @@ es: &DEFAULT_ES
           - url: https://linkedin.com
             icon: fab fa-linkedin-in
 
-  # contact:
-  #   title: "Contáctenos"
-  #   text: "Lorem ipsum or call 123456789"
-  #   section: contacto
-  #   name: "Nombre*"
-  #   name-validation: "Por favor ingrese su nombre."
-  #   email: "Correo Electrónico*"
-  #   email-validation: "Por favor ingrese su correo electrónico."
-  #   phone: "Número Telefónico*"
-  #   phone-validation: "Por favor ingrese su número telefónico."
-  #   message: "Mensaje*"
-  #   message-validation: "Por favor escriba un mensaje."
-  #   subject: "Envío del formulario de contacto"
-  #   submit: "Enviar Mensaje"
+  contact:
+    title: "Contáctenos"
+    text: "Lorem ipsum or call 123456789"
+    section: contacto
+    name: "Nombre*"
+    name-validation: "Por favor ingrese su nombre."
+    email: "Correo Electrónico*"
+    email-validation: "Por favor ingrese su correo electrónico."
+    phone: "Número Telefónico*"
+    phone-validation: "Por favor ingrese su número telefónico."
+    message: "Mensaje*"
+    message-validation: "Por favor escriba un mensaje."
+    subject: "Envío del formulario de contacto"
+    submit: "Enviar Mensaje"
 
   footer:
     legal: "Política de Privacidad"
