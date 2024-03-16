@@ -14,7 +14,7 @@ en: &DEFAULT_EN
     title: Welcome to Quan La Homepage!
     text: It's Nice To Meet You
     button: Tell Me More
-    buttonlink: "#services"
+    buttonlink: "#about"
 
   services:
     title: "Hot News"
