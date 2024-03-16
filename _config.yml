@@ -23,7 +23,7 @@ email      : kenlvq@gmail.com #this is also the email contact forms will go to
 author     : Quan La
 logo:     #optional, defaults to site title
   path: assets\img\clients\sk.ico
-  height: 60 #height in px, defaults to 52px
+  # height: 60 #height in px, defaults to 52px
 
 locale: "en-US" # See available languages in _data/sitetext.yml
 
