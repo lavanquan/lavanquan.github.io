@@ -17,8 +17,8 @@ en: &DEFAULT_EN
     buttonlink: "#services"
 
   services:
-    title: "Services"
-    text: "Lorem ipsum"
+    title: "Hot News"
+    # text: "Recent Activities"
     section: services
     list:
       - title: "E-Commerce"
@@ -33,13 +33,13 @@ en: &DEFAULT_EN
 
   portfolio:
     title: "Projects"
-    text: "Some random research I'm interested in."
+    # text: "Some random research I'm interested in."
     section: portfolio
     closebutton: "Close Project"
 
   timeline:
-    title: "News"
-    text: "Update some hot news."
+    title: "Timeline"
+    # text: "Some notable events."
     section: timeline
     # left is the default
     #start_align: "left"
@@ -54,84 +54,84 @@ en: &DEFAULT_EN
         desc: "I became a Lecturer at Phenikaa University"
         image: assets/img/timeline/phenikaa.jpg
         alt:
-      - title: "Master"
-        year: "2020-2022"
-        desc: "I started the Master's degree at Hanoi University of Science and Technology."
+      - title: "Master and Bachelor"
+        year: "2013-2022"
+        desc: "I got the Bachelor and Master's degree at Hanoi University of Science and Technology."
         image: assets/img/timeline/hust.jpg
         alt: image alt text
-      - title: "Bachelor"
-        year: "2013-2018"
-        desc: "I was a student at Hanoi University of Science and Technology."
-        image: assets/img/timeline/hust.jpg
-        alt:
+      # - title: "Bachelor"
+      #   year: "2013-2018"
+      #   desc: "I was a student at Hanoi University of Science and Technology."
+      #   image: assets/img/timeline/hust.jpg
+      #   alt:
         # you can enforce the alignment
         align: right
     end: "Continue!"
 
   about:
     title: "About Me"
-    text: "my story"
+    # text: "my story"
     body: "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aut eaque, laboriosam veritatis, quos non quis ad perspiciatis, totam corporis ea, alias ut unde. **Markdown** supported."
     section: about
 
-  clients:
-    section: clients
-    max-height: 100px
-    horizontal-scrolling: "" #"yes/no"
-    list:
-      - title: "envato"
-        url: https://github.com/raviriley/agency-jekyll-theme
-        logo: assets/img/clients/envato.jpg
-      - title: "designmodo"
-        url: https://github.com/raviriley/agency-jekyll-theme
-        logo: assets/img/clients/designmodo.jpg
-      - title: "themeforest"
-        url: https://github.com/raviriley/agency-jekyll-theme
-        logo: assets/img/clients/themeforest.jpg
-      - title: "Creative Market"
-        url: https://github.com/raviriley/agency-jekyll-theme
-        logo: assets/img/clients/creative-market.jpg
+  # clients:
+  #   section: clients
+  #   max-height: 100px
+  #   horizontal-scrolling: "" #"yes/no"
+  #   list:
+  #     - title: "envato"
+  #       url: https://github.com/raviriley/agency-jekyll-theme
+  #       logo: assets/img/clients/envato.jpg
+  #     - title: "designmodo"
+  #       url: https://github.com/raviriley/agency-jekyll-theme
+  #       logo: assets/img/clients/designmodo.jpg
+  #     - title: "themeforest"
+  #       url: https://github.com/raviriley/agency-jekyll-theme
+  #       logo: assets/img/clients/themeforest.jpg
+  #     - title: "Creative Market"
+  #       url: https://github.com/raviriley/agency-jekyll-theme
+  #       logo: assets/img/clients/creative-market.jpg
 
-  team:
-    title: "OUR AMAZING TEAM"
-    text: "Lorem ipsum dolor sit amet consectetur."
-    subtext: Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aut eaque, laboriosam veritatis, quos non quis ad perspiciatis, totam corporis ea, alias ut unde. **Markdown** supported.
-    section: team
-    people:
-      - name: "Kay Garland"
-        role: "Lead Designer"
-        image: assets/img/team/500x500.jpg
-        social:
-          - url: https://twitter.com
-            icon: fab fa-twitter
-          - url: https://facebook.com
-            icon: fab fa-facebook-f
-          - url: https://linkedin.com
-            icon: fab fa-linkedin-in
-      - name: "Larry Parker"
-        role: "Lead Marketer"
-        image: assets/img/team/2.jpg
-        social:
-          - url: https://twitter.com
-            icon: fab fa-twitter
-          - url: https://facebook.com
-            icon: fab fa-facebook-f
-          - url: https://linkedin.com
-            icon: fab fa-linkedin-in
-      - name: "Diana Perterson"
-        role: "Lead Developer"
-        image: assets/img/team/500x500.jpg
-        social:
-          - url: https://twitter.com
-            icon: fab fa-twitter
-          - url: https://facebook.com
-            icon: fab fa-facebook-f
-          - url: https://linkedin.com
-            icon: fab fa-linkedin-in
+  # team:
+  #   title: "OUR AMAZING TEAM"
+  #   text: "Lorem ipsum dolor sit amet consectetur."
+  #   subtext: Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aut eaque, laboriosam veritatis, quos non quis ad perspiciatis, totam corporis ea, alias ut unde. **Markdown** supported.
+  #   section: team
+  #   people:
+  #     - name: "Kay Garland"
+  #       role: "Lead Designer"
+  #       image: assets/img/team/500x500.jpg
+  #       social:
+  #         - url: https://twitter.com
+  #           icon: fab fa-twitter
+  #         - url: https://facebook.com
+  #           icon: fab fa-facebook-f
+  #         - url: https://linkedin.com
+  #           icon: fab fa-linkedin-in
+  #     - name: "Larry Parker"
+  #       role: "Lead Marketer"
+  #       image: assets/img/team/2.jpg
+  #       social:
+  #         - url: https://twitter.com
+  #           icon: fab fa-twitter
+  #         - url: https://facebook.com
+  #           icon: fab fa-facebook-f
+  #         - url: https://linkedin.com
+  #           icon: fab fa-linkedin-in
+  #     - name: "Diana Perterson"
+  #       role: "Lead Developer"
+  #       image: assets/img/team/500x500.jpg
+  #       social:
+  #         - url: https://twitter.com
+  #           icon: fab fa-twitter
+  #         - url: https://facebook.com
+  #           icon: fab fa-facebook-f
+  #         - url: https://linkedin.com
+  #           icon: fab fa-linkedin-in
 
   contact:
     title: "Contact Me"
-    text: "Lorem ipsum or call 123456789"
+    # text: "Lorem ipsum or call 123456789"
     section: contact
     name: "Name*"
     name-validation: "Please enter your name."
@@ -149,14 +149,16 @@ en: &DEFAULT_EN
     social:
       - url: https://twitter.com
         icon: "fab fa-twitter"
-      - url: https://facebook.com
-        icon: "fab fa-facebook-f"
-      - url: https://linkedin.com
+      # - url: https://facebook.com
+      #   icon: "fab fa-facebook-f"
+      - url: https://www.linkedin.com/in/la-qu%C3%A2n-8b0975166/
         icon: "fab fa-linkedin-in"
-      - url: https://github.com/raviriley/agency-jekyll-theme
+      - url: https://github.com/lavanquan
         icon: "fab fa-github"
-      - url: https://instagram.com
-        icon: "fab fa-instagram"
+      # - url: https://instagram.com
+      #   icon: "fab fa-instagram"
+      - url: https://scholar.google.com/citations?hl=vi&authuser=1&user=EOAnZCsAAAAJ
+        icon: "fab fa-google"
 en-US:
   <<: *DEFAULT_EN
 en-CA:
