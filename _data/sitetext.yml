@@ -71,7 +71,7 @@ en: &DEFAULT_EN
   about:
     title: "About Me"
     # text: "my story"
-    body: "Hi, I’m Quan La. I'm a PhD Student at The University of Sydney! I’m interested in Machine Learning and focus on Large Language Models. I’m currently working on Low-rank Adaptation for fine-tuning. Contact me by quanlv.phoebus@gmail.com or email for work: quan.lavan@phenikaa-uni.edu.vn or qula0496@uni.sydney.edu.au."
+    body: "Hi, I’m Quan La. I'm a PhD Student at The University of Sydney! I’m interested in Machine Learning and focus on Large Language Models. I’m currently working on Low-rank Adaptation for fine-tuning. Contact me by <b>quanlv.phoebus@gmail.com</b> or email for work: <b>quan.lavan@phenikaa-uni.edu.vn</b> or <b>qula0496@uni.sydney.edu.au</b>."
     section: about
 
   # clients:
