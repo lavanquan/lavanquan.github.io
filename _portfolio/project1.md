@@ -1,18 +1,17 @@
 ---
-title: Project Threads
+title: Low-rank Adaptation
 subtitle: subtitle lorem ipsum dolor sit amet consectetur.
 image: assets/img/portfolio/01-full.jpg
 alt: Shirts on a hanger
 
 caption:
-  title: Threads
-  subtitle: Illustration
+  title: Low-rank Adaptation
+  subtitle: Large Language Model
   thumbnail: assets/img/portfolio/01-thumbnail.jpg
 ---
 Use this area to describe your project. **Markdown** supported. This entry (project1.md) uses links for the image sources. All other projects in the portfolio use local images. Both work just fine! Lorem ipsum dolor sit amet, consectetur adipisicing elit. 
 
 {:.list-inline}
-- Date: January 2017
-- Client: Threads
-- Category: Illustration
-
+- Date: March 2024
+- Client: Low-rank Adaptation
+- Category: Large Language Model
