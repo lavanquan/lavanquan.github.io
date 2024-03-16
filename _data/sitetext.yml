@@ -16,6 +16,51 @@ en: &DEFAULT_EN
     button: Tell Me More
     buttonlink: "#about"
 
+  about:
+    title: "About Me"
+    # text: "my story"
+    body: "Hi, I’m Quan La. I'm a PhD Student at The University of Sydney! I’m interested in Machine Learning and focus on Large Language Models. I’m currently working on Low-rank Adaptation for fine-tuning. Contact me by <b>quanlv.phoebus@gmail.com</b> or email for work: <b>quan.lavan@phenikaa-uni.edu.vn</b> or <b>qula0496@uni.sydney.edu.au</b>."
+    section: about
+
+  team:
+    # title: "OUR AMAZING TEAM"
+    # text: "Lorem ipsum dolor sit amet consectetur."
+    # subtext: Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aut eaque, laboriosam veritatis, quos non quis ad perspiciatis, totam corporis ea, alias ut unde. **Markdown** supported.
+    section: team
+    people:
+      - name: "Quan La"
+        role: "PhD"
+        image: assets/img/team/quan.jpg
+        social:
+          # - url: https://twitter.com
+          #   icon: fab fa-twitter
+          - url: https://www.linkedin.com/in/la-qu%C3%A2n-8b0975166/
+            icon: "fab fa-linkedin-in"
+          - url: https://github.com/lavanquan
+            icon: "fab fa-github"
+          - url: https://scholar.google.com/citations?hl=vi&authuser=1&user=EOAnZCsAAAAJ
+            icon: "fab fa-google"
+      # - name: "Larry Parker"
+      #   role: "Lead Marketer"
+      #   image: assets/img/team/2.jpg
+      #   social:
+      #     - url: https://twitter.com
+      #       icon: fab fa-twitter
+      #     - url: https://facebook.com
+      #       icon: fab fa-facebook-f
+      #     - url: https://linkedin.com
+      #       icon: fab fa-linkedin-in
+      # - name: "Diana Perterson"
+      #   role: "Lead Developer"
+      #   image: assets/img/team/500x500.jpg
+      #   social:
+      #     - url: https://twitter.com
+      #       icon: fab fa-twitter
+      #     - url: https://facebook.com
+      #       icon: fab fa-facebook-f
+      #     - url: https://linkedin.com
+      #       icon: fab fa-linkedin-in
+
   services:
     title: "Hot News"
     text: "Recent Activities"
@@ -91,45 +136,6 @@ en: &DEFAULT_EN
   #     - title: "Creative Market"
   #       url: https://github.com/raviriley/agency-jekyll-theme
   #       logo: assets/img/clients/creative-market.jpg
-
-  team:
-    # title: "OUR AMAZING TEAM"
-    # text: "Lorem ipsum dolor sit amet consectetur."
-    # subtext: Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aut eaque, laboriosam veritatis, quos non quis ad perspiciatis, totam corporis ea, alias ut unde. **Markdown** supported.
-    section: team
-    people:
-      - name: "Quan La"
-        role: "PhD"
-        image: assets/img/team/quan.jpg
-        social:
-          # - url: https://twitter.com
-          #   icon: fab fa-twitter
-          - url: https://www.linkedin.com/in/la-qu%C3%A2n-8b0975166/
-            icon: "fab fa-linkedin-in"
-          - url: https://github.com/lavanquan
-            icon: "fab fa-github"
-          - url: https://scholar.google.com/citations?hl=vi&authuser=1&user=EOAnZCsAAAAJ
-            icon: "fab fa-google"
-      # - name: "Larry Parker"
-      #   role: "Lead Marketer"
-      #   image: assets/img/team/2.jpg
-      #   social:
-      #     - url: https://twitter.com
-      #       icon: fab fa-twitter
-      #     - url: https://facebook.com
-      #       icon: fab fa-facebook-f
-      #     - url: https://linkedin.com
-      #       icon: fab fa-linkedin-in
-      # - name: "Diana Perterson"
-      #   role: "Lead Developer"
-      #   image: assets/img/team/500x500.jpg
-      #   social:
-      #     - url: https://twitter.com
-      #       icon: fab fa-twitter
-      #     - url: https://facebook.com
-      #       icon: fab fa-facebook-f
-      #     - url: https://linkedin.com
-      #       icon: fab fa-linkedin-in
 
   contact:
     title: "Contact Me"
