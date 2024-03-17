@@ -1,13 +1,13 @@
 ---
 title: Coverage Problem
 subtitle: Wireless Sensor Networks.
-image: assets/img/portfolio/sensor1.gif
+image: assets/img/portfolio/sensor3.gif
 alt: Keep Exploring
 
 caption:
   title: Coverage Problem
   subtitle: Wireless Sensor Networks
-  thumbnail: assets/img/portfolio/sensor1.gif
+  thumbnail: assets/img/portfolio/sensor3.gif
 ---
 Use this area to describe your project. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Est blanditiis dolorem culpa incidunt minus dignissimos deserunt repellat aperiam quasi sunt officia expedita beatae cupiditate, maiores repudiandae, nostrum, reiciendis facere nemo!
 
