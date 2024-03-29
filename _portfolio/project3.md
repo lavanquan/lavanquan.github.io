@@ -1,11 +1,11 @@
 ---
-title: Personalized Federated Learning
+title: Federated Learning
 subtitle: Federated Learning.
 image: assets/img/portfolio/fed3.gif
 alt: 
 
 caption:
-  title: Personalized Federated Learning
+  title: Federated Learning
   subtitle: Federated Learning
   thumbnail: assets/img/portfolio/fed3.gif
 ---
@@ -13,6 +13,6 @@ Personalization in federated learning is a key concept aimed at tailoring model 
 
 {:.list-inline}
 - Date: January 2024
-- Client: Personalized Federated Learning
+- Client: Federated Learning
 - Category: Federated Learning
 
