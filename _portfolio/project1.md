@@ -1,8 +1,8 @@
 ---
 title: Low-rank Adaptation
-subtitle: subtitle lorem ipsum dolor sit amet consectetur.
+subtitle: large language models.
 image: assets/img/portfolio/lowrank3.gif
-alt: Shirts on a hanger
+alt: low-rank adaptation
 
 caption:
   title: Low-rank Adaptation
