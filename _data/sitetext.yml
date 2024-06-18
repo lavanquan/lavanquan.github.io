@@ -32,9 +32,9 @@ en: &DEFAULT_EN
         role: "PhD"
         image: assets/img/team/quan.jpg
         social:
-          # - url: https://twitter.com
-          #   icon: fab fa-twitter
-          - url: https://www.linkedin.com/in/la-qu%C3%A2n-8b0975166/
+          - url: https://x.com/KstnCntt
+            icon: fab fa-twitter
+          - url: https://www.linkedin.com/in/quan-la-8b0975166/
             icon: "fab fa-linkedin-in"
           - url: https://github.com/lavanquan
             icon: "fab fa-github"
@@ -155,11 +155,11 @@ en: &DEFAULT_EN
   footer:
     legal: "Privacy Policy"
     social:
-      - url: https://twitter.com
+      - url: https://x.com/KstnCntt
         icon: "fab fa-twitter"
       # - url: https://facebook.com
       #   icon: "fab fa-facebook-f"
-      - url: https://www.linkedin.com/in/la-qu%C3%A2n-8b0975166/
+      - url: https://www.linkedin.com/in/quan-la-8b0975166/
         icon: "fab fa-linkedin-in"
       - url: https://github.com/lavanquan
         icon: "fab fa-github"
