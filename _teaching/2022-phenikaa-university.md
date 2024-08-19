@@ -8,8 +8,6 @@ date: 2022-05-31
 location: "Hanoi, Vietnam"
 ---
 
-// This is a description of a teaching experience. You can use markdown like any other post.
-
 Computer Science
 ======
 - Database
@@ -19,10 +17,4 @@ Computer Science
 - Fundamental Informatics
 - Object Oriented Programming
 - Introduction to Information Technology
-
-// Heading 2
-// ======
-
-// Heading 3
-// ======
 
