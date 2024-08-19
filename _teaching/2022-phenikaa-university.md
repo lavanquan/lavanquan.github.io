@@ -7,6 +7,7 @@ venue: "Phenikaa University, School of Computer Science"
 date: 2022-05-31
 location: "Hanoi, Vietnam"
 ---
+I am a lecturer in Phenikaa University
 
 Computer Science
 ======
