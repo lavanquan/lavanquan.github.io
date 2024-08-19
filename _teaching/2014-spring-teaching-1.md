@@ -2,7 +2,7 @@
 title: "Lecturer"
 collection: teaching
 type: "Undergraduate course"
-permalink: /teaching/2014-spring-teaching-1
+permalink: /teaching/2022-phenikaa
 venue: "Phenikaa University, School of Computer Science"
 date: 2022-31-05
 location: "Hanoi, Vietnam"
