@@ -1,5 +1,5 @@
 ---
-title: "Teaching"
+title: "Teaching in The University of Sydney"
 collection: teaching
 type: "University Courses"
 permalink: /teaching/2024-sydney-university
