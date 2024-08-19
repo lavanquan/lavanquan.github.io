@@ -9,7 +9,7 @@ location: "Sydney, NSW, Australia"
 ---
 I am a tutor in The University of Sydney
 
-Heading 1
+Computer Science
 ======
 - Machine Learning and Data Mining
 
