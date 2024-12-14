@@ -16,8 +16,9 @@
     <li><a href="{% if site.atom_feed.path %}{{ site.atom_feed.path }}{% else %}{{ base_path }}/feed.xml{% endif %}"><i class="fa fa-fw fa-rss-square" aria-hidden="true"></i> {{ site.data.ui-text[site.locale].feed_label | default: "Feed" }}</a></li>
     {% endif %} -->
   </ul>
+  <script type="text/javascript" id="clstr_globe" src="//clustrmaps.com/globe.js?d=vN1Tcx9clVu1w7reZe8dsqQfwHzG31w9Cpc_ywmYmpY"></script>
 </div>
-<script type="text/javascript" id="clstr_globe" src="//clustrmaps.com/globe.js?d=vN1Tcx9clVu1w7reZe8dsqQfwHzG31w9Cpc_ywmYmpY"></script>
+
 {% endif %}
 
 <div class="page__footer-copyright">&copy; {{ site.time | date: '%Y' }} {{ site.name | default: site.title }}.
