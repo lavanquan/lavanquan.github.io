@@ -23,30 +23,13 @@ layout: compress
         {% include footer/custom.html %}
         {% include footer.html %}
 
-        <!-- Responsive Wrapper -->
-  <div id="clustrmaps-container">
-    <script type="text/javascript" id="clustrmaps" src="//clustrmaps.com/map_v2.js?d=vN1Tcx9clVu1w7reZe8dsqQfwHzG31w9Cpc_ywmYmpY&cl=ffffff&w=a"></script>
+        <div id="clustrmaps-globe-container" style="width: 300px; height: 300px; margin: 0 auto;">
+    <script 
+      type="text/javascript" 
+      id="clstr_globe" 
+      src="//clustrmaps.com/globe.js?d=vN1Tcx9clVu1w7reZe8dsqQfwHzG31w9Cpc_ywmYmpY">
+    </script>
   </div>
-
-  <!-- Add Custom CSS -->
-  <style>
-    #clustrmaps-container {
-      position: relative;
-      width: 100%; /* Full width of the parent container */
-      max-width: 100px; /* Optional: limit the max size */
-      margin: 0 auto; /* Center the map if needed */
-      padding-top: 0%; /* Aspect ratio (16:9) */
-      overflow: hidden; /* Prevent content overflow */
-    }
-
-    #clustrmaps-container > #clustrmaps-widget {
-      position: absolute;
-      top: 0;
-      left: 0;
-      width: 100% !important; /* Ensure the map fits the container */
-      height: 100% !important; /* Ensure it scales dynamically */
-    }
-  </style>
         
       </footer>
     </div>
