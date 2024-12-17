@@ -21,10 +21,10 @@ repository               : "lavanquan/lavanquan.github.io"
 #               Additional customization can be done by editing /_includes/author-profile.html
 author:
   # Biographic information
-  avatar           : "profile.jpg"
+  avatar           : "IMG_4022.jpeg"
   name             : "Quan La (Phoebus)"
   pronouns         : # example: "He/Him"  
-  bio              : "You only live once, but if you do it right, once is enough."
+  bio              : "One day, you will see that every wrong thing in life was right."
   location         : "Sydney, NSW, Australia"
   employer         : "The University of Sydney"
   uri              : # URL
