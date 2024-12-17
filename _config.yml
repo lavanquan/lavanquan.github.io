@@ -21,7 +21,7 @@ repository               : "lavanquan/lavanquan.github.io"
 #               Additional customization can be done by editing /_includes/author-profile.html
 author:
   # Biographic information
-  avatar           : "IMG_4022.jpeg"
+  avatar           : "profile.jpeg"
   name             : "Quan La (Phoebus)"
   pronouns         : # example: "He/Him"  
   bio              : "One day, you will see that every wrong thing in life was right."
