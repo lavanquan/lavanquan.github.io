@@ -7,7 +7,9 @@ redirect_from:
   - /pubs/
   - /publications/pubsbyyear/
 ---
-
+{% if page.author and site.data.authors[page.author] %}
+  {% assign author = site.data.authors[page.author] %}{% else %}{% assign author = site.author %}
+{% endif %}
 
 
 {% if author.googlescholar %}
