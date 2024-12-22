@@ -1,6 +1,6 @@
 ---
 permalink: /contact/
-title: "Contact Info"
+title: "News"
 ---
 
 ## Academic Services
