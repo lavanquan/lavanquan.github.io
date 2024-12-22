@@ -5,19 +5,11 @@ title: "Contact Info"
 
 ## Office Location
 
-E&amp;CS Building Rm. 3327  
-4700 Elkhorn Ave.  
-Old Dominion University  
-Norfolk, VA  
-(757) 683-7729
+J12/1 Cleveland St, Darlington, NSW 2008, Australia 
+The University of Sydney
 
-## Mailing Address
+## Email Address
 
-Dr. Michele C. Weigle  
-4700 Elkhorn Ave., Suite 3300  
-Dept. of Computer Science  
-Old Dominion University  
-Norfolk, VA 23529-0162
+Sydney Email: [qula0496@uni.sydney.edu.au](mailto:qula0496@uni.sydney.edu.au)
+Phenikaa Email: [quan.lavan@phenikaa-uni.edu.vn](mailto:quan.lavan@phenikaa-uni.edu.vn)
 
-## For GPD matters
-Email: [csgpd@odu.edu](mailto:csgpd@odu.edu)
