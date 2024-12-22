@@ -7,13 +7,13 @@
 
 # Site Settings
 locale                   : "en-US"
-title                    : "Michele C. Weigle @ ODU"
+title                    : "Quan La (Phoebus)"
 title_separator          : "-"
-name                     : &name "Michele C. Weigle"
-description              : &description "Professor of Computer Science"
-url                      : https://weiglemc.github.io # the base hostname & protocol for your site e.g. "https://mmistakes.github.io"
+name                     : &name "Quan La (Phoebus)"
+description              : &description "PhD Candidate at the University of Sydney"
+url                      : https://lavanquan.github.io # the base hostname & protocol for your site e.g. "https://mmistakes.github.io"
 baseurl                  : "" # the subpath of your site, e.g. "/blog"
-repository               : "weiglemc/weiglemc.github.io"
+repository               : "lavanquan/lavanquan.github.io"
 teaser                   :  # filename of teaser fallback teaser image placed in /images/, .e.g. "500x300.png"
 breadcrumbs              : true # true, false (default)
 words_per_minute         : 160
@@ -84,33 +84,33 @@ analytics:
 
 # Site Author
 author:
-  name             : "Dr. Michele C. Weigle"
-  avatar           : "mweigle-ODU.jpg"
-  bio              : "Professor of Computer Science"
-  location         : "Norfolk, VA"
-  employer         : "Old Dominion University"
-  employeruri      : "https://www.odu.edu"
+  name             : "Mr. Quan La"
+  avatar           : "profile.jpeg"
+  bio              : "PhD Candidate at the University of Sydney"
+  location         : "Sydney, NSW, Australia"
+  employer         : "The University of Sydney"
+  employeruri      : "lavanquan.github.io"
   pubmed           : 
-  googlescholar    : "http://scholar.google.com/citations?user=MOLPTqcAAAAJ&hl=en"
-  email            : "mweigle at cs dot odu dot edu"
+  googlescholar    : "https://scholar.google.com.au/citations?hl=en&user=EOAnZCsAAAAJ"
+  email            : "qula0496@uni.sydney.edu.au"
   researchgate     :  # example: "https://www.researchgate.net/profile/yourprofile"
-  uri              : "https://www.cs.odu.edu/~mweigle/"
+  # uri              : "https://www.cs.odu.edu/~mweigle/"
   bitbucket        :
-  bluesky          : "weiglemc.bsky.social"
+  # bluesky          : "weiglemc.bsky.social"
   codepen          :
   dribbble         :
   flickr           :
   facebook         :
   foursquare       :
-  github           : "weiglemc"
+  github           : "lavanquan"
   google_plus      :
   keybase          :
   instagram        :
   impactstory      : #"https://profiles.impactstory.org/u/xxxx-xxxx-xxxx-xxxx"
   lastfm           :
-  linkedin         : "michele-weigle-559b052"
-  mastodon         : "digipres.club/@weiglemc"
-  orcid            : "https://orcid.org/0000-0002-2787-7166"
+  linkedin         : "quan-la-8b0975166"
+  # mastodon         : "digipres.club/@weiglemc"
+  orcid            : "https://orcid.org/0000-0002-6579-3983"
   pinterest        :
   soundcloud       :
   stackoverflow    : # http://stackoverflow.com/users/123456/username
