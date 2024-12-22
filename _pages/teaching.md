@@ -3,64 +3,23 @@ layout: archive
 title: "Teaching"
 permalink: /teaching/
 author_profile: true
-next_semester: "Spring 2025"
-current_semester: "Fall 2024"
 ---
 {% include base_path %}
 
-**Jan 2023:** Contributed course materials for [Web Science](https://github.com/cci-web-science-security/web-science/) as part of the [Web Science and Web Security](https://github.com/cci-web-science-security) sequence of classes, delivered for the [COVA CCI](https://covacci.org/) Academic Curriculum Development Grant "[Web Science and Web Security](https://ws-dl.blogspot.com/2022/01/2022-01-07-webscidl-with-web-science.html)" ([RFP COVACCI-21-05](https://covacci.org/wp-content/uploads/2021/10/COVACCI-21-05-Curriculum-Development.pdf)).
+## @ The University of Sydney
 
-**May 2020:** Wrote a blog post based on my experiences teaching hybrid classes before COVID, ["Teaching a Flipped Hybrid (In-Class/Online) Course"](https://ws-dl.blogspot.com/2020/05/2020-05-06-teaching-flipped-hybrid-in.html). 
+* COMP5318/4318 - Machine Learning and Data Mining
 
-**June 2014:** Posted computer networking explainer videos: ["Compute IP range given CIDR address"](https://www.youtube.com/watch?v=ls1mMyfnaC0) (72K+ views), ["Compute CIDR given IP range and netmask"](https://www.youtube.com/watch?v=PnApdHjU8sg) (11K+ views), ["Powers of 2 example"](https://www.youtube.com/watch?v=1-yOrnWwM4M)
+## @ Phenikaa University
 
-## {{ page.next_semester }}
+* CSE703008 - Database
+* CSE702017 - Operating System
+* CSE702026 - Advanced C Progamming
+* CSE703001 - Fundamental Informatics
+* CSE703029 - Object Oriented Programming
+* CSE702040 - Introduction to Information Technology
+* CSE702003 - Introduction to Data Science and Artificial Intelligence
 
-{% for post in site.teaching %}
-  {% if post.semester == page.next_semester %}
-    {% include archive-single.html %}
-  {% endif %}
-{% endfor %}
+## @ University of the West of England Bristol
 
-## {{ page.current_semester }}
-
-{% for post in site.teaching %}
-  {% if post.semester == page.current_semester %}
-    {% include archive-single.html %}
-  {% endif %}
-{% endfor %}
-
-
-## Previous Semesters
-
-| |Fall | Spring |
-|---|---|---|
-|***2024-2025*** | [CS 625 - Data Visualization](https://weiglemc.github.io/teaching/2024-fall-cs625) | [CS 725/825 - Information Visualization & Data Analytics](https://weiglemc.github.io/teaching/2025-spr-cs725825) |
-|***2023-2024*** | [CS 625 - Data Visualization](https://weiglemc.github.io/teaching/2023-fall-cs625) | [CS 725/825 - Information Visualization & Data Analytics](https://weiglemc.github.io/teaching/2024-spr-cs725825)|
-|**2022-2023** | *research leave*|[CS 725/825 - Information Visualization & Data Analytics](https://weiglemc.github.io/teaching/2023-spr-cs725825)|
-|**2021-2022** | [CS 432/532 - Web Science](https://weiglemc.github.io/teaching/2021-fall-cs432532)<br/>[CS 625 - Data Visualization](https://weiglemc.github.io/teaching/2021-fall-cs625)|[CS 725/825 - Information Visualization & Data Analytics](https://weiglemc.github.io/teaching/2022-spr-cs725825)<br/>[CS 800 - Research Methods](https://weiglemc.github.io/teaching/2022-spr-cs800)|
-|**2020-2021** | [CS 312 - Internet Concepts](https://www.cs.odu.edu/~mweigle/CS312-F20/)<br/>[CS 432/532 - Web Science](https://www.cs.odu.edu/~mweigle/CS432-F20/)<br/>[CS 625 - Data Visualization](https://www.cs.odu.edu/~mweigle/CS625-F20/)|[CS 432/532 - Web Science](https://www.cs.odu.edu/~mweigle/CS432-S21/)<br/>[CS 725/825 - Information Visualization & Data Analytics](https://www.cs.odu.edu/~mweigle/CS725-S21/)<br/>[CS 800 - Research Methods](https://www.cs.odu.edu/~mweigle/CS800-S21/)|
-|**2019-2020** | [CS 625 - Data Visualization](https://www.cs.odu.edu/~mweigle/CS625-F19/)|[CS 432/532 - Web Science](https://www.cs.odu.edu/~mweigle/CS432-S20/)<br/>[CS 800 - Research Methods](https://www.cs.odu.edu/~mweigle/CS800-S20/)|
-|**2018-2019** | *course buyout*|[CS 725/825 - Information Visualization](https://www.cs.odu.edu/~mweigle/CS725-S19/)|
-|**2017-2018** | [CS 725/825 - Information Visualization](https://www.cs.odu.edu/~mweigle/CS725-F17/)<br/>[CS 791/891 - Web Archiving Seminar](https://phonedude.github.io/cs891-f17/)<br/>&nbsp; (co-taught with Michael Nelson)|[CS 725/825 - Information Visualization](https://www.cs.odu.edu/~mweigle/CS725-S18/)|
-|**2016-2017** | *admin leave*|CS 725/825 - Information Visualization|
-|**2015-2016** | CS 462/562 - CyberSecurity Fundamentals<br/>CS 791/891 - Visualization Seminar|CS 725/825 - Information Visualization<br/>CS 595 - Topics in Cybersecurity<br/>&nbsp; (short course for [Public Sector Leadership Certificate](https://www.odu.edu/cepd/execed/public-sector-leadership))|
-|**2014-2015** | *research leave*|CS 725/825 - Information Visualization|
-|**2013-2014** | CS 462/562 - CyberSecurity Fundamentals<br/>CS 725/825 - Information Visualization|[CS 418/518 - Web Programming](https://www.cs.odu.edu/~mweigle/CS418-S14)|
-|**2012-2013** | CS 418/518 - Web Programming<br/>CS 795/895 - Information Visualization|[CS 455/555 - Intro to Networks and Communication](https://www.cs.odu.edu/~mweigle/CS455-S13)<br/>CS 795/895 - Applied Visual Analytics|
-|**2011-2012** | [CS 312 - Internet Concepts](http://www.cs.odu.edu/~mweigle/CS312-F11)<br/>CS 795/895 - Information Visualization|*maternity leave*|
-|**2010-2011** | CS 312 - Internet Concepts<br/>CS 795/895 - Vehicular Networks|CS 455/555 - Intro to Networks and Communication<br/>CS 796/896 - Visual Analytics Seminar|
-|**2009-2010** | CS 312 - Internet Concepts<br/>CS 455/555 - Intro to Networks and Communication|CS 795/895 - Vehicular Networks<br/>CS 796/896 - Advanced Networking Seminar|
-|**2008-2009** | CS 312 - Internet Concepts<br/>CS 455/555 - Intro to Networks and Communication|*maternity leave*|
-|**2007-2008** | CS 455/555 - Intro to Networks and Communication<br/>CS 791/891 - VANET Seminar|CS 795/895 - Vehicular Networks|
-|**2006-2007** | CS 455/555 - Intro to Networks and Communication|CS 795/895 - Vehicular Networks|
-
-## @ Clemson University
-
-* CPSC 360 - Network Programming (Spring 2006, Fall 2005, Spring 2005)
-* CPSC 481 - Undergraduate Research (Spring 2006)
-* CPSC 826/852 - Internetworking (Fall 2005, Fall 2004)
-
-## @ UNC
-
-* COMP 14 - Introduction to Programming (Spring 2004, Fall 2003, Summer 2000)
+* UFCFHS - Principles of Programming
