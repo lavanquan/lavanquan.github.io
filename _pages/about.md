@@ -15,3 +15,4 @@ blogger-color: "#F37100"
 - 👀 I’m interested in Federated Learning and Foundation Models.
 - 🌱 I’m currently working on Federated Learning for Timeseries Prediction.
 - 📫 How to reach me: [qula0496@uni.sydney.edu.au](mailto:qula0496@uni.sydney.edu.au) or [quan.lavan@phenikaa-uni.edu.vn](mailto:quan.lavan@phenikaa-uni.edu.vn)
+- 📫 Office Location: J12/1 Cleveland St, Darlington, NSW 2008, Australia
