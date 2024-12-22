@@ -9,4 +9,4 @@ redirect_from:
 
 <iframe src="https://www.cs.odu.edu/~mweigle/files/CV.pdf" width="100%" height="500" frameborder="no" border="0" marginwidth="0" marginheight="0"></iframe>
 
-You can download a [PDF version of my CV](https://www.cs.odu.edu/~mweigle/files/CV.pdf).
+You can download a [PDF version of my CV]([https://github.com/lavanquan/lavanquan.github.io/blob/master/CV_LaVanQuan.pdf]).
