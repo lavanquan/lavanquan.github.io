@@ -3,13 +3,12 @@ permalink: /contact/
 title: "Contact Info"
 ---
 
-## Office Location
+## Academic Services
 
-J12/1 Cleveland St, Darlington, NSW 2008, Australia 
-The University of Sydney
+Conference Reviewer: SoICT. 
+Journal Reviewer: TMLCN, IEEE Network Magazine.
 
-## Email Address
+## Others
 
-Sydney Email: [qula0496@uni.sydney.edu.au](mailto:qula0496@uni.sydney.edu.au)
-Phenikaa Email: [quan.lavan@phenikaa-uni.edu.vn](mailto:quan.lavan@phenikaa-uni.edu.vn)
+
 
