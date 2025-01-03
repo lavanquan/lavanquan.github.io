@@ -1,5 +1,5 @@
 ---
-title: "Wireless Sensor Networks"
-excerpt: "Wireless Sensor Networks<br/><img src='/images/wsn.jpg'>"
+title: "Wireless Networks"
+excerpt: "Wireless Networks<br/><img src='/images/sensor3.gif'>"
 collection: portfolio
 ---
