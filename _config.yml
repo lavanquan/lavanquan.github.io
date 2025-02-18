@@ -57,11 +57,11 @@ yandex_site_verification :
 
 # Social Sharing
 mastodon:
-  username               : "digipres.club/@weiglemc"
+  username               : #"digipres.club/@weiglemc"
 twitter:
-  username               : "weiglemc"
+  username               : #"weiglemc"
 bluesky:
-  username               : "weiglemc.bsky.social"
+  username               : #"weiglemc.bsky.social"
 facebook:
   username               :
   app_id                 :
