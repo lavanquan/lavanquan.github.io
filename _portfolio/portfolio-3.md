@@ -1,5 +1,5 @@
 ---
 title: "Wireless Networks"
-excerpt: "Wireless Networks<br/><img src='/images/sensor3.gif'>"
+excerpt: "Wireless Networks<br/><img src='/images/wsn.webp'>"
 collection: portfolio
 ---
