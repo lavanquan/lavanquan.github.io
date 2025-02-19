@@ -1,6 +1,6 @@
 ---
 title: "Prediction"
-excerpt: "Timeseries Prediction<br/><img src='/images/fed.webp'>"
+excerpt: "Timeseries Prediction<br/><img src='/images/pred.webp'>"
 collection: portfolio
 ---
 
