@@ -8,10 +8,12 @@ author_profile: true
 
 ## @ The University of Sydney
 
-* COMP5318/4318 - Machine Learning and Data Mining
-* INFO1113/COMP9003 - Object-Oriented Programming
-* COMP9001 - Introduction to Programming
-* COMP9123 - Data Structures and Algorithms
+* COMP5318 - Machine Learning and Data Mining (Postgraduate)
+* COMP4318 - Machine Learning and Data Mining (Undergraduate)
+* COMP9003 - Object-Oriented Programming (Postgraduate)
+* INFO1113 - Object-Oriented Programming (Undergraduate)
+* COMP9001 - Introduction to Programming (Postgraduate)
+* COMP9123 - Data Structures and Algorithms (Postgraduate)
 
 ## @ Phenikaa University
 
