@@ -11,7 +11,7 @@ twitter-color: "#55acee"
 github-color: "#171516"
 blogger-color: "#F37100"
 ---
-👋 Hi, I’m Quan La. I am a Ph.D. candidate at the School of Computer Science at the University of Sydney, Australia, and a lecturer at Phenikaa University, Vietnam. I feel fortunate to have learned from Prof. <a href="https://nguyenhoangtran.github.io/" target="_blank">Nguyen Tran</a> and <a href="https://dual-grp.github.io/website-dual/" target="_blank">DUAL</a> group members.
+👋 Hi, I’m Quan La. I am a Ph.D. candidate at the School of Computer Science at the University of Sydney, Australia, and a lecturer at Phenikaa University, Vietnam. I feel fortunate to have learned from Prof. <a href="https://nguyenhoangtran.github.io/" target="_blank">Nguyen Tran</a> and <a href="https://dual-grp.github.io/" target="_blank">DUAL</a> group members.
 - 👀 I’m interested in Federated Learning and Speculative Decoding.
 - 🌱 I’m currently working on Speculative Decoding for the Edge System.
 - 📫 How to reach me: [vanquan.la@sydney.edu.au](mailto:vanquan.la@sydney.edu.au) or [quan.lavan@phenikaa-uni.edu.vn](mailto:quan.lavan@phenikaa-uni.edu.vn)
