@@ -1,8 +1,10 @@
 :root {
   --dual-footer-height: 112px;
   --dual-map-source-width: 320px;
-  --dual-map-source-height: 128px;
-  --dual-map-scale: .68;
+  --dual-map-source-height: 170px;
+  --dual-map-scale: .48;
+  --dual-map-frame-width: 220px;
+  --dual-map-frame-height: 84px;
 }
 
 html {
@@ -106,7 +108,7 @@ body {
 
 .dual-footer__visitors {
   display: grid;
-  grid-template-columns: auto calc(var(--dual-map-source-width) * var(--dual-map-scale));
+  grid-template-columns: auto var(--dual-map-frame-width);
   align-items: center;
   justify-items: center;
   gap: 1rem;
@@ -121,8 +123,8 @@ body {
 
 .dual-footer__map-widget {
   position: relative;
-  width: calc(var(--dual-map-source-width) * var(--dual-map-scale));
-  height: calc(var(--dual-map-source-height) * var(--dual-map-scale));
+  width: var(--dual-map-frame-width);
+  height: var(--dual-map-frame-height);
   min-width: 0;
   min-height: 0;
   margin: 0;
@@ -170,7 +172,9 @@ body {
 @media (max-width: 760px) {
   :root {
     --dual-footer-height: 100px;
-    --dual-map-scale: .46;
+    --dual-map-scale: .38;
+    --dual-map-frame-width: 150px;
+    --dual-map-frame-height: 64px;
   }
 
   .page__footer footer {
@@ -194,7 +198,9 @@ body {
 @media (max-width: 480px) {
   :root {
     --dual-footer-height: 90px;
-    --dual-map-scale: .34;
+    --dual-map-scale: .30;
+    --dual-map-frame-width: 112px;
+    --dual-map-frame-height: 54px;
   }
 
   .dual-footer__identity {
