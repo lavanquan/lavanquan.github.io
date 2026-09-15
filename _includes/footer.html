@@ -1,35 +1,20 @@
 {% include base_path %}
 
 <div class="dual-footer__inner">
-  <div class="dual-footer__meta">
-    <div class="dual-footer__identity">
-      <span class="dual-footer__name">{{ site.name | default: site.title }}</span>
-      <span class="dual-footer__copyright">&copy; {{ site.time | date: '%Y' }}</span>
-    </div>
-
-    <div class="dual-footer__links">
-      {% if site.author.github %}
-        <a href="https://github.com/{{ site.author.github }}" rel="me">GitHub</a>
-      {% endif %}
-      {% if site.author.linkedin %}
-        <a href="https://www.linkedin.com/in/{{ site.author.linkedin }}" rel="me">LinkedIn</a>
-      {% endif %}
-      {% if site.author.googlescholar %}
-        <a href="{{ site.author.googlescholar }}">Scholar</a>
-      {% endif %}
-    </div>
+  <div class="dual-footer__identity">
+    <span class="dual-footer__name">{{ site.name | default: site.title }}</span>
+    <span class="dual-footer__copyright">&copy; {{ site.time | date: '%Y' }}</span>
   </div>
 
-  <div class="dual-footer__visitors" aria-label="Global visitor map">
-    <div class="dual-footer__map-label">
-      <span class="dual-status__dot" aria-hidden="true"></span>
-      <span>GLOBAL VISITORS</span>
-    </div>
-    <div class="dual-footer__map-widget">
-      <script type="text/javascript" id="mapmyvisitors" src="//mapmyvisitors.com/map.js?d=sFLyYGujlXqBU2U7R0UGbc9LDJKeWkCcH47oQ_0Ux4c&cl=ffffff&w=220"></script>
-      <noscript>
-        <a href="https://mapmyvisitors.com/" target="_blank" rel="noopener noreferrer">Visitor map</a>
-      </noscript>
-    </div>
+  <div class="dual-footer__links">
+    {% if site.author.github %}
+      <a href="https://github.com/{{ site.author.github }}" rel="me">GitHub</a>
+    {% endif %}
+    {% if site.author.linkedin %}
+      <a href="https://www.linkedin.com/in/{{ site.author.linkedin }}" rel="me">LinkedIn</a>
+    {% endif %}
+    {% if site.author.googlescholar %}
+      <a href="{{ site.author.googlescholar }}">Scholar</a>
+    {% endif %}
   </div>
 </div>
