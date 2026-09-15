@@ -1,5 +1,75 @@
 {% include base_path %}
 
+<style>
+  .masthead {
+    min-height: 68px;
+  }
+  .masthead__inner-wrap {
+    min-height: 68px;
+  }
+  .dual-nav {
+    width: 100%;
+    min-height: 68px;
+    display: flex;
+    align-items: center;
+    gap: 1.5rem;
+    flex-wrap: nowrap;
+  }
+  .dual-nav__brand {
+    flex: 0 0 auto;
+    display: inline-flex;
+    align-items: center;
+    height: 68px;
+    color: var(--dual-fg) !important;
+    font-family: 'Space Grotesk', sans-serif;
+    font-size: 1rem;
+    font-weight: 700;
+    letter-spacing: -.02em;
+    line-height: 1;
+    text-decoration: none !important;
+    white-space: nowrap;
+  }
+  .dual-nav__links {
+    flex: 1 1 auto;
+    min-width: 0;
+    height: 68px;
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    gap: 1.8rem;
+    flex-wrap: nowrap;
+    overflow-x: auto;
+    scrollbar-width: none;
+  }
+  .dual-nav__links::-webkit-scrollbar { display: none; }
+  .dual-nav__link {
+    flex: 0 0 auto;
+    display: inline-flex;
+    align-items: center;
+    height: 68px;
+    color: var(--dual-fg) !important;
+    font-family: 'JetBrains Mono', monospace;
+    font-size: .78rem;
+    letter-spacing: .02em;
+    line-height: 1;
+    text-decoration: none !important;
+    white-space: nowrap;
+  }
+  .dual-nav__link:hover { color: var(--dual-accent) !important; }
+  .dual-nav__theme {
+    flex: 0 0 auto;
+    align-self: center;
+    margin: 0;
+  }
+  @media (max-width: 760px) {
+    .dual-nav { gap: .8rem; }
+    .dual-nav__brand { font-size: .9rem; }
+    .dual-nav__links { gap: .9rem; justify-content: flex-start; }
+    .dual-nav__link { font-size: .7rem; }
+    .dual-nav__theme { display: none; }
+  }
+</style>
+
 <div class="masthead">
   <div class="masthead__inner-wrap">
     <nav id="site-nav" class="dual-nav" aria-label="Primary navigation">
