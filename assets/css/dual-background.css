@@ -1,0 +1,51 @@
+.dual-background-canvas {
+  position: fixed;
+  inset: 0;
+  width: 100vw;
+  height: 100vh;
+  z-index: 0;
+  pointer-events: none;
+  opacity: 1;
+}
+
+.dual-site-layer {
+  position: relative;
+  z-index: 1;
+  min-height: 100vh;
+}
+
+.dual-home,
+#main,
+.page,
+.archive,
+.sidebar,
+.page__inner-wrap {
+  position: relative;
+  z-index: 1;
+}
+
+.dual-home {
+  background: linear-gradient(
+    to bottom,
+    color-mix(in srgb, var(--dual-bg) 58%, transparent),
+    color-mix(in srgb, var(--dual-bg) 72%, transparent)
+  );
+}
+
+.dual-card,
+.dual-terminal,
+.dual-contact-card {
+  backdrop-filter: blur(.8px);
+  background: color-mix(in srgb, var(--dual-bg-elev) 91%, transparent) !important;
+}
+
+@media (max-width: 640px) {
+  .dual-background-canvas { opacity: .9; }
+  .dual-home {
+    background: color-mix(in srgb, var(--dual-bg) 72%, transparent);
+  }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .dual-background-canvas { opacity: .72; }
+}
