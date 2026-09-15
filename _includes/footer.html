@@ -1,32 +1,40 @@
 {% include base_path %}
 
-<div class="page__footer-follow">
-  <ul class="social-icons">
-    {% if site.data.ui-text[site.locale].follow_label %}
-      <li><strong>{{ site.data.ui-text[site.locale].follow_label }}</strong></li>
-    {% endif %}
-<!--     {% if site.mastodon.username %}
-      <li><a href="https://{{ site.mastodon.username }}"><i class="fab fa-fw fa-mastodon" aria-hidden="true"></i> Mastodon</a></li>
-    {% endif %} -->
- <!--   {% if site.twitter.username %}
-      <li><a href="https://twitter.com/{{ site.twitter.username }}"><i class="fab fa-twitter-square" aria-hidden="true"></i> Twitter</a></li>
-    {% endif %} -->
-<!--     {% if site.facebook.username %}
-      <li><a href="https://facebook.com/{{ site.facebook.username }}"><i class="fab fa-facebook-square" aria-hidden="true"></i> Facebook</a></li>
-    {% endif %} -->
-    {% if site.author.github %}
-      <li><a href="http://github.com/{{ site.author.github }}"><i class="fab fa-github" aria-hidden="true"></i> GitHub</a></li>
-    {% endif %}
-<!--     {% if site.author.linkedin %}
-       <li><a href="https://www.linkedin.com/in/{{ site.author.linkedin }}"><i class="fab fa-linkedin" aria-hidden="true"></i> LinkedIn</a></li>
-    {% endif %} -->
-<!--     {% if site.author.bitbucket %}
-      <li><a href="http://bitbucket.org/{{ site.author.bitbucket }}"><i class="fab fa-bitbucket" aria-hidden="true"></i> Bitbucket</a></li>
-    {% endif %} -->
-<!--    
-    <li><a href="{% if site.atom_feed.path %}{{ site.atom_feed.path }}{% else %}{{ base_path }}/feed.xml{% endif %}"><i class="fa fa-fw fa-rss-square" aria-hidden="true"></i> {{ site.data.ui-text[site.locale].feed_label | default: "Feed" }}</a></li>
--->
-  </ul>
-</div>
+<div class="dual-footer__inner">
+  <div class="dual-footer__meta">
+    <div class="dual-footer__identity">
+      <span class="dual-footer__name">{{ site.name | default: site.title }}</span>
+      <span class="dual-footer__copyright">&copy; {{ site.time | date: '%Y' }}</span>
+    </div>
 
-<div class="page__footer-copyright">&copy; {{ site.time | date: '%Y' }} {{ site.name | default: site.title }}.
+    <div class="dual-footer__links">
+      {% if site.author.github %}
+        <a href="https://github.com/{{ site.author.github }}" rel="me">GitHub</a>
+      {% endif %}
+      {% if site.author.linkedin %}
+        <a href="https://www.linkedin.com/in/{{ site.author.linkedin }}" rel="me">LinkedIn</a>
+      {% endif %}
+      {% if site.author.googlescholar %}
+        <a href="{{ site.author.googlescholar }}">Scholar</a>
+      {% endif %}
+    </div>
+  </div>
+
+  <div class="dual-footer__visitors" aria-label="Global visitor map">
+    <div class="dual-footer__map-label">
+      <span class="dual-status__dot" aria-hidden="true"></span>
+      <span>GLOBAL VISITORS</span>
+    </div>
+    <a class="dual-footer__map-link" href="https://clustrmaps.com/site/1c5oa" title="View global visitor statistics" target="_blank" rel="noopener noreferrer">
+      <img
+        class="dual-footer__map"
+        src="https://clustrmaps.com/map_v2.png?cl=ffffff&w=320&t=n&d=vN1Tcx9clVu1w7reZe8dsqQfwHzG31w9Cpc_ywmYmpY"
+        alt="World map showing visitor locations"
+        width="320"
+        height="92"
+        loading="lazy"
+        decoding="async"
+      >
+    </a>
+  </div>
+</div>
