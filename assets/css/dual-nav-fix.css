@@ -1,0 +1,48 @@
+/* Keep the desktop masthead on one consistent vertical center line. */
+@media (min-width: 768px) {
+  .masthead__inner-wrap,
+  .masthead__menu,
+  .greedy-nav {
+    min-height: 68px;
+  }
+
+  .masthead__menu,
+  .greedy-nav {
+    display: flex;
+    align-items: center;
+  }
+
+  .greedy-nav {
+    width: 100%;
+  }
+
+  .greedy-nav .visible-links {
+    display: flex !important;
+    align-items: stretch !important;
+    min-height: 68px;
+    margin-top: 0 !important;
+    margin-bottom: 0 !important;
+  }
+
+  .greedy-nav .visible-links > li {
+    display: flex !important;
+    align-items: center !important;
+    height: 68px;
+    margin-top: 0 !important;
+    margin-bottom: 0 !important;
+  }
+
+  .greedy-nav .visible-links > li > a {
+    display: flex !important;
+    align-items: center !important;
+    height: 68px;
+    padding-top: 0 !important;
+    padding-bottom: 0 !important;
+    line-height: 1.2 !important;
+  }
+
+  .greedy-nav .dual-theme-toggle,
+  .greedy-nav > button {
+    align-self: center;
+  }
+}
