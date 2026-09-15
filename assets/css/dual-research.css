@@ -118,6 +118,29 @@
   opacity: .78;
   color: var(--dual-accent);
   pointer-events: none;
+  transform-box: fill-box;
+  transform-origin: center;
+  will-change: transform;
+  animation: dual-research-spin 18s linear infinite;
+}
+
+.dual-research-card:nth-child(2) .dual-research-card__motif {
+  animation-name: dual-research-spin-reverse;
+  animation-duration: 23s;
+}
+
+.dual-research-card:nth-child(3) .dual-research-card__motif {
+  animation-duration: 15s;
+}
+
+.dual-research-card:nth-child(4) .dual-research-card__motif {
+  animation-name: dual-research-spin-reverse;
+  animation-duration: 28s;
+}
+
+.dual-research-card:hover .dual-research-card__motif {
+  animation-duration: 7s;
+  opacity: 1;
 }
 
 .dual-research-card__motif circle,
@@ -125,6 +148,16 @@
 .dual-research-card__motif line,
 .dual-research-card__motif polygon {
   vector-effect: non-scaling-stroke;
+}
+
+@keyframes dual-research-spin {
+  from { transform: rotate(0deg); }
+  to { transform: rotate(360deg); }
+}
+
+@keyframes dual-research-spin-reverse {
+  from { transform: rotate(360deg); }
+  to { transform: rotate(0deg); }
 }
 
 .dual-research-note {
@@ -166,5 +199,10 @@
 
   .dual-research-card:hover {
     transform: none;
+  }
+
+  .dual-research-card__motif,
+  .dual-research-card:hover .dual-research-card__motif {
+    animation: none;
   }
 }
