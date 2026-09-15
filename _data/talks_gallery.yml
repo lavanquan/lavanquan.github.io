@@ -1,0 +1,76 @@
+# Replace these preview entries with real conference photos when they are available.
+# Suggested image organization:
+#   /images/talks/<conference-slug>/photo-01.jpg
+#   /images/talks/<conference-slug>/photo-02.jpg
+# Then update only this file; the Talks page UI does not need to change.
+
+latest:
+  placeholder: true
+  label: "LATEST TALK / PREVIEW"
+  title: "Your latest conference"
+  event: "Replace with the latest talk or conference name"
+  location: "Add city / country"
+  date: "Add date"
+  description: "This carousel is ready for the photos from your most recent talk. The current images are visual placeholders only."
+  images:
+    - src: "/images/llm.webp"
+      alt: "Preview placeholder for the latest conference gallery"
+      caption: "Preview image 01"
+    - src: "/images/fed.webp"
+      alt: "Preview placeholder for the latest conference gallery"
+      caption: "Preview image 02"
+    - src: "/images/agent.webp"
+      alt: "Preview placeholder for the latest conference gallery"
+      caption: "Preview image 03"
+    - src: "/images/pred.webp"
+      alt: "Preview placeholder for the latest conference gallery"
+      caption: "Preview image 04"
+
+albums:
+  - placeholder: true
+    title: "Conference album 01"
+    event: "Add conference name"
+    location: "Add city / country"
+    date: "Add date"
+    cover: "/images/llm.webp"
+    images:
+      - src: "/images/llm.webp"
+        alt: "Preview placeholder"
+      - src: "/images/fed.webp"
+        alt: "Preview placeholder"
+      - src: "/images/agent.webp"
+        alt: "Preview placeholder"
+      - src: "/images/pred.webp"
+        alt: "Preview placeholder"
+
+  - placeholder: true
+    title: "Conference album 02"
+    event: "Add conference name"
+    location: "Add city / country"
+    date: "Add date"
+    cover: "/images/fed.webp"
+    images:
+      - src: "/images/fed.webp"
+        alt: "Preview placeholder"
+      - src: "/images/agent.webp"
+        alt: "Preview placeholder"
+      - src: "/images/pred.webp"
+        alt: "Preview placeholder"
+      - src: "/images/llm.webp"
+        alt: "Preview placeholder"
+
+  - placeholder: true
+    title: "Conference album 03"
+    event: "Add conference name"
+    location: "Add city / country"
+    date: "Add date"
+    cover: "/images/agent.webp"
+    images:
+      - src: "/images/agent.webp"
+        alt: "Preview placeholder"
+      - src: "/images/pred.webp"
+        alt: "Preview placeholder"
+      - src: "/images/llm.webp"
+        alt: "Preview placeholder"
+      - src: "/images/fed.webp"
+        alt: "Preview placeholder"
