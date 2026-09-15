@@ -1,11 +1,5 @@
 :root {
-  --dual-footer-height: 112px;
-  --dual-map-source-width: 320px;
-  --dual-map-source-height: 170px;
-  --dual-map-frame-width: 220px;
-  --dual-map-frame-height: 84px;
-  --dual-map-scale-x: .6875;
-  --dual-map-scale-y: .4941;
+  --dual-footer-height: 132px;
 }
 
 html {
@@ -31,7 +25,7 @@ body {
   backdrop-filter: blur(18px);
   -webkit-backdrop-filter: blur(18px);
   color: var(--dual-muted) !important;
-  overflow: hidden;
+  overflow: visible;
 }
 
 .page__footer footer {
@@ -58,7 +52,6 @@ body {
   display: flex;
   flex-direction: column;
   justify-content: center;
-  align-self: center;
 }
 
 .dual-footer__identity,
@@ -109,58 +102,42 @@ body {
 
 .dual-footer__visitors {
   display: grid;
-  grid-template-columns: auto var(--dual-map-frame-width);
+  grid-template-columns: auto 220px;
   align-items: center;
-  justify-items: center;
   gap: 1rem;
-  align-self: center;
 }
 
 .dual-footer__map-label {
   white-space: nowrap;
   margin: 0;
-  align-self: center;
 }
 
 .dual-footer__map-widget {
-  position: relative;
-  width: var(--dual-map-frame-width);
-  height: var(--dual-map-frame-height);
-  min-width: 0;
-  min-height: 0;
+  width: 220px;
+  min-width: 220px;
   margin: 0;
   padding: 0;
-  border: 1px solid var(--dual-line);
-  border-radius: 6px;
-  overflow: hidden;
-  background: var(--dual-bg-elev);
-  line-height: 0;
-  box-sizing: border-box;
+  line-height: normal;
+  overflow: visible;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 
-.dual-footer__map-widget > * {
-  margin: 0 !important;
-  padding: 0 !important;
-}
-
+/* Important: do not force dimensions on MapMyVisitors-generated content.
+   The provider now renders at w=220 and controls its own aspect ratio. */
 .dual-footer__map-widget iframe,
 .dual-footer__map-widget img,
 .dual-footer__map-widget canvas,
 .dual-footer__map-widget svg,
 .dual-footer__map-widget object,
 .dual-footer__map-widget embed {
-  position: absolute !important;
-  left: 50% !important;
-  top: 50% !important;
-  display: block !important;
-  width: var(--dual-map-source-width) !important;
-  height: var(--dual-map-source-height) !important;
-  max-width: none !important;
-  max-height: none !important;
-  margin: 0 !important;
+  max-width: 220px !important;
+  height: auto !important;
+  margin: 0 auto !important;
   border: 0 !important;
-  transform: translate(-50%, -50%) scale(var(--dual-map-scale-x), var(--dual-map-scale-y));
-  transform-origin: center center;
+  transform: none !important;
+  position: static !important;
 }
 
 .dual-footer__map-widget a {
@@ -172,11 +149,7 @@ body {
 
 @media (max-width: 760px) {
   :root {
-    --dual-footer-height: 100px;
-    --dual-map-frame-width: 150px;
-    --dual-map-frame-height: 64px;
-    --dual-map-scale-x: .46875;
-    --dual-map-scale-y: .3765;
+    --dual-footer-height: 112px;
   }
 
   .page__footer footer {
@@ -195,15 +168,18 @@ body {
   .dual-footer__visitors {
     display: block;
   }
+
+  .dual-footer__map-widget {
+    width: 160px;
+    min-width: 160px;
+    transform: scale(.72);
+    transform-origin: center center;
+  }
 }
 
 @media (max-width: 480px) {
   :root {
-    --dual-footer-height: 90px;
-    --dual-map-frame-width: 112px;
-    --dual-map-frame-height: 54px;
-    --dual-map-scale-x: .35;
-    --dual-map-scale-y: .3176;
+    --dual-footer-height: 96px;
   }
 
   .dual-footer__identity {
@@ -216,5 +192,11 @@ body {
 
   .dual-footer__links {
     gap: .5rem;
+  }
+
+  .dual-footer__map-widget {
+    width: 132px;
+    min-width: 132px;
+    transform: scale(.6);
   }
 }
