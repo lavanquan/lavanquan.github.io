@@ -1,0 +1,72 @@
+/* Global typography override requested for the personal site. */
+:root {
+  --comic-font: "Comic Sans MS", "Comic Sans", "Chalkboard SE", "Comic Neue", cursive;
+}
+
+html,
+body,
+button,
+input,
+select,
+textarea,
+.masthead,
+.dual-masthead,
+.dual-nav,
+.dual-nav a,
+.dual-home,
+.dual-home h1,
+.dual-home h2,
+.dual-home h3,
+.dual-home p,
+.page,
+.archive,
+.sidebar,
+.page__content,
+.page__title,
+.archive__item-title,
+.dual-research-page,
+.dual-research-page__title,
+.dual-research-card,
+.dual-research-card h2,
+.dual-talks,
+.dual-talks h1,
+.dual-talks h2,
+.dual-talks h3,
+.dual-contact-page,
+.dual-contact-page h1,
+.dual-contact-page h2,
+.dual-footer__name,
+.dual-footer__links a,
+.dual-footer__copyright,
+.dual-research-page__eyebrow,
+.dual-research-card__tags,
+.dual-research-note {
+  font-family: var(--comic-font) !important;
+}
+
+/* Keep icon glyphs and source-code blocks on their intended fonts. */
+.fa,
+.fas,
+.far,
+.fab,
+.ai,
+[class^="fa-"],
+[class*=" fa-"],
+code,
+pre,
+kbd,
+samp,
+.highlight,
+.highlight code {
+  font-family: inherit;
+}
+
+.fa,
+.fas,
+.far,
+.fab,
+.ai,
+[class^="fa-"],
+[class*=" fa-"] {
+  font-family: "Font Awesome 5 Free", "Font Awesome 5 Brands", Academicons !important;
+}
