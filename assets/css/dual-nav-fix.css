@@ -1,48 +1,130 @@
-/* Keep the desktop masthead on one consistent vertical center line. */
-@media (min-width: 768px) {
+/* Stable custom masthead: no Minimal Mistakes greedy-nav DOM shuffling. */
+.masthead__inner-wrap {
+  min-height: 68px;
+}
+
+.dual-nav {
+  min-height: 68px;
+  width: 100%;
+  display: grid;
+  grid-template-columns: auto 1fr auto;
+  align-items: center;
+  gap: 1.25rem;
+}
+
+.dual-nav__brand,
+.dual-nav__link {
+  display: inline-flex;
+  align-items: center;
+  min-height: 68px;
+  line-height: 1.2;
+  text-decoration: none !important;
+}
+
+.dual-nav__brand {
+  color: var(--dual-fg) !important;
+  font-family: 'Space Grotesk', sans-serif;
+  font-size: 1rem;
+  font-weight: 700;
+  letter-spacing: -.02em;
+  white-space: nowrap;
+}
+
+.dual-nav__links {
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+  min-width: 0;
+  height: 68px;
+  gap: 1.8rem;
+}
+
+.dual-nav__link {
+  position: relative;
+  color: var(--dual-fg) !important;
+  font-family: 'JetBrains Mono', monospace;
+  font-size: .78rem;
+  letter-spacing: .02em;
+  white-space: nowrap;
+}
+
+.dual-nav__link::after {
+  content: '';
+  position: absolute;
+  left: 0;
+  right: 0;
+  bottom: 16px;
+  height: 1px;
+  background: var(--dual-accent);
+  transform: scaleX(0);
+  transform-origin: center;
+  transition: transform .18s ease;
+}
+
+.dual-nav__link:hover {
+  color: var(--dual-accent) !important;
+}
+
+.dual-nav__link:hover::after {
+  transform: scaleX(1);
+}
+
+.dual-nav__theme {
+  align-self: center;
+  margin: 0;
+}
+
+.greedy-nav .hidden-links,
+.greedy-nav .visible-links,
+.greedy-nav > button {
+  display: none !important;
+}
+
+@media (max-width: 900px) {
+  .dual-nav {
+    grid-template-columns: auto 1fr;
+    gap: .8rem;
+  }
+
+  .dual-nav__links {
+    gap: 1rem;
+    overflow-x: auto;
+    justify-content: flex-start;
+    scrollbar-width: none;
+  }
+
+  .dual-nav__links::-webkit-scrollbar {
+    display: none;
+  }
+
+  .dual-nav__theme {
+    display: none;
+  }
+}
+
+@media (max-width: 640px) {
   .masthead__inner-wrap,
-  .masthead__menu,
-  .greedy-nav {
-    min-height: 68px;
+  .dual-nav,
+  .dual-nav__brand,
+  .dual-nav__links,
+  .dual-nav__link {
+    min-height: 60px;
+    height: 60px;
   }
 
-  .masthead__menu,
-  .greedy-nav {
-    display: flex;
-    align-items: center;
+  .dual-nav {
+    grid-template-columns: auto minmax(0, 1fr);
   }
 
-  .greedy-nav {
-    width: 100%;
+  .dual-nav__links {
+    gap: .9rem;
   }
 
-  .greedy-nav .visible-links {
-    display: flex !important;
-    align-items: stretch !important;
-    min-height: 68px;
-    margin-top: 0 !important;
-    margin-bottom: 0 !important;
+  .dual-nav__brand {
+    font-size: .9rem;
   }
 
-  .greedy-nav .visible-links > li {
-    display: flex !important;
-    align-items: center !important;
-    height: 68px;
-    margin-top: 0 !important;
-    margin-bottom: 0 !important;
-  }
-
-  .greedy-nav .visible-links > li > a {
-    display: flex !important;
-    align-items: center !important;
-    height: 68px;
-    padding-top: 0 !important;
-    padding-bottom: 0 !important;
-    line-height: 1.2 !important;
-  }
-
-  .greedy-nav .dual-theme-toggle,
-  .greedy-nav > button {
-    align-self: center;
+  .dual-nav__link {
+    font-size: .7rem;
   }
 }
