@@ -1,0 +1,149 @@
+---
+layout: default
+---
+
+{% include base_path %}
+
+<main class="dual-home" id="main-content">
+  <section class="dual-hero" aria-labelledby="home-title">
+    <div class="dual-container dual-hero__grid">
+      <div class="dual-hero__copy">
+        <p class="dual-kicker"><span class="dual-crosshair" aria-hidden="true"></span>Sydney, Australia · AI Systems</p>
+        <div class="dual-idline" aria-hidden="true">
+          <span>QL</span><span>/</span><span>01</span>
+        </div>
+        <h1 id="home-title">Quan La</h1>
+        <p class="dual-hero__headline">Efficient intelligence for distributed and edge systems.</p>
+        <p class="dual-hero__intro">
+          Ph.D. candidate at the School of Computer Science, University of Sydney, and lecturer at Phenikaa University.
+          I work on <strong>speculative decoding</strong>, <strong>federated learning</strong>, and efficient AI systems.
+        </p>
+
+        <div class="dual-hero__actions">
+          <a class="dual-btn dual-btn--primary" href="{{ base_path }}/research/">Explore research <span aria-hidden="true">→</span></a>
+          <a class="dual-btn" href="{{ base_path }}/publications/">Publications</a>
+          <a class="dual-btn" href="{{ base_path }}/cv/">CV</a>
+        </div>
+
+        <div class="dual-status" aria-label="Current research focus">
+          <span class="dual-status__dot" aria-hidden="true"></span>
+          <span class="dual-status__label">CURRENT FOCUS</span>
+          <span class="dual-status__value">Speculative decoding for edge inference</span>
+        </div>
+      </div>
+
+      <div class="dual-hero__visual" aria-label="Quan La profile">
+        <div class="dual-terminal">
+          <div class="dual-terminal__bar">
+            <span>research://quan-la</span>
+            <span>SYD · AU</span>
+          </div>
+          <div class="dual-terminal__body">
+            <div class="dual-portrait-frame">
+              <img src="{{ base_path }}/images/{{ site.author.avatar }}" alt="Portrait of Quan La" loading="eager" />
+              <span class="dual-corner dual-corner--tl" aria-hidden="true"></span>
+              <span class="dual-corner dual-corner--tr" aria-hidden="true"></span>
+              <span class="dual-corner dual-corner--bl" aria-hidden="true"></span>
+              <span class="dual-corner dual-corner--br" aria-hidden="true"></span>
+            </div>
+            <div class="dual-terminal__readout" aria-hidden="true">
+              <span>compute</span>
+              <span>communicate</span>
+              <span>decode</span>
+              <span>learn</span>
+              <span class="dual-terminal__cursor">█</span>
+            </div>
+          </div>
+        </div>
+        <p class="dual-hero__caption">Researching practical learning and inference under compute, communication, and resource constraints.</p>
+      </div>
+    </div>
+  </section>
+
+  <div class="dual-container">
+    <section class="dual-section" aria-labelledby="research-themes-title">
+      <header class="dual-section-heading">
+        <p class="dual-kicker"><span class="dual-crosshair" aria-hidden="true"></span>Research themes</p>
+        <h2 id="research-themes-title">Systems-minded AI, from algorithms to the edge.</h2>
+      </header>
+
+      <div class="dual-card-grid">
+        <article class="dual-card">
+          <div class="dual-card__index">01</div>
+          <div class="dual-orbit" aria-hidden="true"><span></span><span></span><span></span></div>
+          <h3>Speculative Decoding</h3>
+          <p>Faster and fairer LLM inference across heterogeneous and resource-constrained edge systems.</p>
+          <div class="dual-card__meta">LLM inference · Edge AI · Goodput</div>
+        </article>
+
+        <article class="dual-card">
+          <div class="dual-card__index">02</div>
+          <div class="dual-network" aria-hidden="true"><i></i><i></i><i></i><i></i><i></i></div>
+          <h3>Federated &amp; Edge Learning</h3>
+          <p>Communication-efficient collaborative learning that respects resource and deployment constraints.</p>
+          <div class="dual-card__meta">Federated learning · LoRA · Edge intelligence</div>
+        </article>
+
+        <article class="dual-card">
+          <div class="dual-card__index">03</div>
+          <div class="dual-rings" aria-hidden="true"><span></span><span></span></div>
+          <h3>Distributed AI Systems</h3>
+          <p>Algorithms and optimization methods for dependable learning and inference across networked systems.</p>
+          <div class="dual-card__meta">Distributed systems · Optimization · Reliability</div>
+        </article>
+      </div>
+    </section>
+
+    <section class="dual-section dual-section--ruled" aria-labelledby="recent-work-title">
+      <header class="dual-section-heading dual-section-heading--row">
+        <div>
+          <p class="dual-kicker"><span class="dual-crosshair" aria-hidden="true"></span>Recent signals</p>
+          <h2 id="recent-work-title">Selected work.</h2>
+        </div>
+        <a class="dual-link-arrow" href="{{ base_path }}/publications/">All publications <span aria-hidden="true">→</span></a>
+      </header>
+
+      <div class="dual-signal-list">
+        <a class="dual-signal" href="{{ base_path }}/publications/2026">
+          <span class="dual-signal__year">2026</span>
+          <span class="dual-badge">INFOCOM</span>
+          <span class="dual-signal__title">GoodSpeed: Optimizing Fair Goodput with Adaptive Speculative Decoding in Distributed Edge Inference</span>
+          <span class="dual-signal__arrow" aria-hidden="true">→</span>
+        </a>
+        <a class="dual-signal" href="{{ base_path }}/publications/2026">
+          <span class="dual-signal__year">2026</span>
+          <span class="dual-badge">IEEE NL</span>
+          <span class="dual-signal__title">FORCE: Federated Orthogonality-aware Low-Rank Adaptation for Communication-Efficient Fine-Tuning</span>
+          <span class="dual-signal__arrow" aria-hidden="true">→</span>
+        </a>
+        <a class="dual-signal" href="{{ base_path }}/publications/2026">
+          <span class="dual-signal__year">2026</span>
+          <span class="dual-badge">KBS</span>
+          <span class="dual-signal__title">ALSB: A Problem-Aware Hybrid Optimization Framework for k-Coverage and k-Connectivity</span>
+          <span class="dual-signal__arrow" aria-hidden="true">→</span>
+        </a>
+      </div>
+    </section>
+
+    <section class="dual-section dual-section--ruled dual-about" aria-labelledby="about-title">
+      <header class="dual-section-heading">
+        <p class="dual-kicker"><span class="dual-crosshair" aria-hidden="true"></span>About</p>
+        <h2 id="about-title">Research, teaching, and collaboration.</h2>
+      </header>
+
+      <div class="dual-about__grid">
+        <div class="dual-prose">
+          {{ content }}
+        </div>
+        <aside class="dual-contact-card" aria-label="Contact and profiles">
+          <p class="dual-contact-card__label">CONNECT / 04</p>
+          <a href="mailto:{{ site.author.email }}">{{ site.author.email }}</a>
+          <a href="{{ site.author.googlescholar }}" target="_blank" rel="noopener noreferrer">Google Scholar <span aria-hidden="true">↗</span></a>
+          <a href="https://github.com/{{ site.author.github }}" target="_blank" rel="noopener noreferrer">GitHub <span aria-hidden="true">↗</span></a>
+          <a href="{{ site.author.orcid }}" target="_blank" rel="noopener noreferrer">ORCID <span aria-hidden="true">↗</span></a>
+          <p class="dual-contact-card__location">School of Computer Science<br />The University of Sydney</p>
+        </aside>
+      </div>
+    </section>
+  </div>
+</main>
