@@ -13,33 +13,28 @@ layout: compress
 
   <body>
 
-    <canvas id="dual-background-canvas" class="dual-background-canvas" aria-hidden="true"></canvas>
+    {% include browser-upgrade.html %}
+    {% include masthead.html %}
 
-    <div class="dual-site-layer">
-      {% include browser-upgrade.html %}
-      {% include masthead.html %}
+    {{ content }}
 
-      {{ content }}
-
-      <div class="page__footer">
-        <footer>
-          {% include footer/custom.html %}
-          {% include footer.html %}
-        
-  </div>
-        <div id="clustrmaps-globe-container" style="width: 100px; height: 100px; margin: 0 auto; margin-top: -50px">
-        <script 
-        type="text/javascript" 
-        id="clstr_globe" 
-        src="//clustrmaps.com/globe.js?d=vN1Tcx9clVu1w7reZe8dsqQfwHzG31w9Cpc_ywmYmpY">
-        </script>
-        
-        </footer>
-      </div>
+    <div class="page__footer">
+      <footer>
+        {% include footer/custom.html %}
+        {% include footer.html %}
+      
+</div>
+      <div id="clustrmaps-globe-container" style="width: 100px; height: 100px; margin: 0 auto; margin-top: -50px">
+      <script 
+      type="text/javascript" 
+      id="clstr_globe" 
+      src="//clustrmaps.com/globe.js?d=vN1Tcx9clVu1w7reZe8dsqQfwHzG31w9Cpc_ywmYmpY">
+      </script>
+      
+      </footer>
     </div>
 
     {% include scripts.html %}
-    <script src="{{ base_path }}/assets/js/dual-background.js" defer></script>
 
   </body>
 </html>
