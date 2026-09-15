@@ -57,24 +57,24 @@
     reset(initial = false) {
       this.x = Math.random() * width;
       this.y = initial ? Math.random() * height : height + Math.random() * 60;
-      this.radius = 0.7 + Math.random() * 1.45;
-      this.vx = (Math.random() - 0.5) * 0.14;
-      this.vy = -(0.08 + Math.random() * 0.18);
+      this.radius = 0.9 + Math.random() * 1.75;
+      this.vx = (Math.random() - 0.5) * 0.16;
+      this.vy = -(0.09 + Math.random() * 0.19);
       this.phase = Math.random() * Math.PI * 2;
       this.phaseSpeed = 0.003 + Math.random() * 0.004;
     }
 
     update() {
       this.phase += this.phaseSpeed;
-      this.x += this.vx + Math.sin(this.phase) * 0.05;
+      this.x += this.vx + Math.sin(this.phase) * 0.055;
       this.y += this.vy;
 
       if (pointer.active) {
         const dx = this.x - pointer.x;
         const dy = this.y - pointer.y;
         const dist2 = dx * dx + dy * dy;
-        if (dist2 < 26000 && dist2 > 1) {
-          const force = (1 - dist2 / 26000) * 0.09;
+        if (dist2 < 30000 && dist2 > 1) {
+          const force = (1 - dist2 / 30000) * 0.13;
           const distance = Math.sqrt(dist2);
           this.x += (dx / distance) * force;
           this.y += (dy / distance) * force;
@@ -87,8 +87,8 @@
 
   const particleCount = () => {
     const area = width * height;
-    const density = coarsePointer.matches ? 32000 : 22000;
-    return Math.max(24, Math.min(coarsePointer.matches ? 44 : 76, Math.round(area / density)));
+    const density = coarsePointer.matches ? 27000 : 18000;
+    return Math.max(28, Math.min(coarsePointer.matches ? 52 : 90, Math.round(area / density)));
   };
 
   const resize = () => {
@@ -114,15 +114,15 @@
     const y = height * (0.28 + Math.cos(time * 0.0001) * 0.07);
     const radius = Math.max(width, height) * 0.52;
     const gradient = ctx.createRadialGradient(x, y, 0, x, y, radius);
-    gradient.addColorStop(0, rgba(accent, 0.045));
-    gradient.addColorStop(0.42, rgba(accent, 0.018));
+    gradient.addColorStop(0, rgba(accent, 0.10));
+    gradient.addColorStop(0.42, rgba(accent, 0.04));
     gradient.addColorStop(1, rgba(accent, 0));
     ctx.fillStyle = gradient;
     ctx.fillRect(0, 0, width, height);
   };
 
   const drawConnections = () => {
-    const maxDistance = coarsePointer.matches ? 105 : 145;
+    const maxDistance = coarsePointer.matches ? 118 : 158;
     const maxDistance2 = maxDistance * maxDistance;
 
     for (let i = 0; i < particles.length; i += 1) {
@@ -134,12 +134,12 @@
         const distance2 = dx * dx + dy * dy;
         if (distance2 > maxDistance2) continue;
 
-        const opacity = (1 - distance2 / maxDistance2) * 0.075;
+        const opacity = (1 - distance2 / maxDistance2) * 0.17;
         ctx.beginPath();
         ctx.moveTo(a.x, a.y);
         ctx.lineTo(b.x, b.y);
         ctx.strokeStyle = rgba(accent, opacity);
-        ctx.lineWidth = 0.65;
+        ctx.lineWidth = 0.9;
         ctx.stroke();
       }
     }
@@ -150,13 +150,13 @@
       const pulse = 0.55 + Math.sin(particle.phase * 1.6) * 0.22;
       ctx.beginPath();
       ctx.arc(particle.x, particle.y, particle.radius, 0, Math.PI * 2);
-      ctx.fillStyle = rgba(accent, 0.18 + pulse * 0.2);
+      ctx.fillStyle = rgba(accent, 0.34 + pulse * 0.28);
       ctx.fill();
 
-      if (particle.radius > 1.45) {
+      if (particle.radius > 1.55) {
         ctx.beginPath();
-        ctx.arc(particle.x, particle.y, particle.radius * 3.7, 0, Math.PI * 2);
-        ctx.fillStyle = rgba(foreground, 0.018);
+        ctx.arc(particle.x, particle.y, particle.radius * 4.1, 0, Math.PI * 2);
+        ctx.fillStyle = rgba(accent, 0.035);
         ctx.fill();
       }
     });
