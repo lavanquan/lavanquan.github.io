@@ -10,14 +10,37 @@
           {% for link in site.data.navigation.main %}
             {% if link.url contains 'http' %}
               {% assign domain = '' %}
-              {% else %}
+            {% else %}
               {% assign domain = base_path %}
             {% endif %}
             <li class="masthead__menu-item"><a href="{{ domain }}{{ link.url }}">{{ link.title }}</a></li>
           {% endfor %}
+          <li class="masthead__menu-item">
+            <button class="dual-theme-toggle" id="dual-theme-toggle" type="button" aria-label="Toggle dark mode">theme</button>
+          </li>
         </ul>
         <ul class="hidden-links hidden"></ul>
       </nav>
     </div>
   </div>
 </div>
+
+<script>
+  (function () {
+    var button = document.getElementById('dual-theme-toggle');
+    if (!button) return;
+    function updateLabel() {
+      var dark = document.documentElement.getAttribute('data-theme') === 'dark';
+      button.textContent = dark ? 'light' : 'dark';
+      button.setAttribute('aria-label', dark ? 'Switch to light mode' : 'Switch to dark mode');
+    }
+    updateLabel();
+    button.addEventListener('click', function () {
+      var dark = document.documentElement.getAttribute('data-theme') === 'dark';
+      var next = dark ? 'light' : 'dark';
+      document.documentElement.setAttribute('data-theme', next);
+      try { localStorage.setItem('quan-theme', next); } catch (e) {}
+      updateLabel();
+    });
+  })();
+</script>
