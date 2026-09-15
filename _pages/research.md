@@ -1,9 +1,8 @@
 ---
-layout: single
+layout: research-dual
 permalink: /research/
 title: "Research"
 author_profile: false
-classes: wide
 ---
 
 <section class="dual-research-page" aria-labelledby="research-themes-title">
