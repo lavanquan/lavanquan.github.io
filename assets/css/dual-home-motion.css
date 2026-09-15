@@ -1,0 +1,103 @@
+/* Lightweight motion for the three technical motifs on the home Research Themes cards. */
+.dual-home .dual-orbit,
+.dual-home .dual-network,
+.dual-home .dual-rings {
+  transform-box: border-box;
+  transform-origin: 50% 50%;
+  will-change: transform;
+}
+
+.dual-home .dual-orbit {
+  animation: dual-home-orbit-spin 16s linear infinite;
+}
+
+.dual-home .dual-orbit span:nth-child(2) {
+  animation: dual-home-orbit-counter 10s linear infinite;
+  transform-origin: 50% 50%;
+}
+
+.dual-home .dual-orbit span:nth-child(3) {
+  animation: dual-home-orbit-counter-reverse 13s linear infinite;
+  transform-origin: 50% 50%;
+}
+
+.dual-home .dual-network {
+  animation: dual-home-network-drift 9s ease-in-out infinite alternate;
+}
+
+.dual-home .dual-network i {
+  animation: dual-home-node-pulse 2.8s ease-in-out infinite;
+}
+
+.dual-home .dual-network i:nth-child(2) { animation-delay: -.45s; }
+.dual-home .dual-network i:nth-child(3) { animation-delay: -.9s; }
+.dual-home .dual-network i:nth-child(4) { animation-delay: -1.35s; }
+.dual-home .dual-network i:nth-child(5) { animation-delay: -1.8s; }
+
+.dual-home .dual-rings {
+  animation: dual-home-rings-spin 20s linear infinite reverse;
+}
+
+.dual-home .dual-rings span:last-child {
+  animation: dual-home-ring-breathe 3.6s ease-in-out infinite;
+  transform-origin: 50% 50%;
+}
+
+.dual-home .dual-card:hover .dual-orbit {
+  animation-duration: 7s;
+}
+
+.dual-home .dual-card:hover .dual-network {
+  animation-duration: 3.8s;
+}
+
+.dual-home .dual-card:hover .dual-rings {
+  animation-duration: 8s;
+}
+
+@keyframes dual-home-orbit-spin {
+  from { transform: rotate(0deg); }
+  to { transform: rotate(360deg); }
+}
+
+@keyframes dual-home-orbit-counter {
+  from { transform: rotate(56deg); }
+  to { transform: rotate(416deg); }
+}
+
+@keyframes dual-home-orbit-counter-reverse {
+  from { transform: rotate(-38deg); }
+  to { transform: rotate(-398deg); }
+}
+
+@keyframes dual-home-network-drift {
+  0% { transform: rotate(-5deg) scale(.98); }
+  50% { transform: rotate(2deg) scale(1.02); }
+  100% { transform: rotate(7deg) scale(.99); }
+}
+
+@keyframes dual-home-node-pulse {
+  0%, 100% { transform: scale(.82); opacity: .58; }
+  50% { transform: scale(1.18); opacity: 1; }
+}
+
+@keyframes dual-home-rings-spin {
+  from { transform: rotate(0deg); }
+  to { transform: rotate(360deg); }
+}
+
+@keyframes dual-home-ring-breathe {
+  0%, 100% { transform: scale(.86); opacity: .5; }
+  50% { transform: scale(1.08); opacity: 1; }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .dual-home .dual-orbit,
+  .dual-home .dual-orbit span,
+  .dual-home .dual-network,
+  .dual-home .dual-network i,
+  .dual-home .dual-rings,
+  .dual-home .dual-rings span {
+    animation: none !important;
+  }
+}
