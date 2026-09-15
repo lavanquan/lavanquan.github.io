@@ -1,17 +1,104 @@
 ---
-layout: archive
-title: "Recent Talks and Presentations"
+layout: default
+title: "Talks"
 permalink: /talks/
-author_profile: true
+author_profile: false
 ---
 
-<!-- <div>
-<p>Older presentations can be found via <a href="https://www.slideshare.net/mweigle/presentations">my Slideshare profile</a>.</p>
-</div> -->
+{% assign gallery = site.data.talks_gallery %}
 
-<div class="grid__wrapper">
-{% for post in site.talks reversed %}
-  {% include archive-single-talk.html type="grid" %}
-{% endfor %}
+<main class="dual-talks-page">
+  <header class="dual-talks-page__intro">
+    <p class="dual-kicker"><span class="dual-crosshair" aria-hidden="true"></span> TALKS / CONFERENCES</p>
+    <h1>Conference moments & talks.</h1>
+    <p>A visual archive of talks, conference trips, and the people and places around them.</p>
+  </header>
+
+  <section class="dual-talks-latest" aria-labelledby="latest-talk-heading">
+    <div class="dual-talks-latest__head">
+      <div>
+        <p class="dual-kicker"><span class="dual-status__dot" aria-hidden="true"></span> {{ gallery.latest.label }}</p>
+        <h2 id="latest-talk-heading">{{ gallery.latest.title }}</h2>
+      </div>
+      <div class="dual-talks-latest__meta">
+        <strong>{{ gallery.latest.event }}</strong><br>
+        {{ gallery.latest.location }} · {{ gallery.latest.date }}
+      </div>
+    </div>
+
+    <div class="dual-talks-carousel" data-talks-carousel tabindex="0" aria-label="Latest talk photo carousel">
+      <div class="dual-talks-carousel__stage">
+        {% for image in gallery.latest.images %}
+          <figure class="dual-talks-carousel__slide{% if forloop.first %} is-active{% endif %}">
+            <img src="{{ image.src | relative_url }}" alt="{{ image.alt | escape }}" loading="{% if forloop.first %}eager{% else %}lazy{% endif %}">
+            {% if image.caption %}<figcaption class="dual-talks-carousel__caption">{{ image.caption }}</figcaption>{% endif %}
+          </figure>
+        {% endfor %}
+      </div>
+
+      <div class="dual-talks-carousel__dots" aria-label="Choose slide">
+        {% for image in gallery.latest.images %}
+          <button class="dual-talks-carousel__dot{% if forloop.first %} is-active{% endif %}" type="button" aria-label="Slide {{ forloop.index }}"{% if forloop.first %} aria-current="true"{% endif %}></button>
+        {% endfor %}
+      </div>
+
+      <div class="dual-talks-carousel__controls">
+        <button class="dual-talks-carousel__button" type="button" data-talks-prev aria-label="Previous photo">←</button>
+        <button class="dual-talks-carousel__button" type="button" data-talks-next aria-label="Next photo">→</button>
+      </div>
+    </div>
+
+    <p class="dual-talks-placeholder">{{ gallery.latest.description }}</p>
+  </section>
+
+  <div class="dual-talks-section-head">
+    <div>
+      <p class="dual-kicker">ARCHIVE / ALBUMS</p>
+      <h2>Conference collections</h2>
+    </div>
+    <p>Each card represents one conference trip. Open an album to browse all photos from that event.</p>
+  </div>
+
+  <section class="dual-talks-grid" aria-label="Conference albums">
+    {% for album in gallery.albums %}
+      <button
+        class="dual-talks-album"
+        type="button"
+        data-talks-album
+        data-album-title="{{ album.title | escape }}"
+        data-album-images="{{ album.images | jsonify | escape }}"
+      >
+        <div class="dual-talks-album__cover">
+          <img src="{{ album.cover | relative_url }}" alt="{{ album.title | escape }} cover" loading="lazy">
+          <span class="dual-talks-album__count">{{ album.images | size }} PHOTOS</span>
+        </div>
+        <div class="dual-talks-album__body">
+          <p>{{ album.date }}</p>
+          <h3>{{ album.title }}</h3>
+          <p>{{ album.event }}<br>{{ album.location }}</p>
+          {% if album.placeholder %}<span class="dual-talks-album__placeholder">PREVIEW DATA</span>{% endif %}
+        </div>
+      </button>
+    {% endfor %}
+  </section>
+</main>
+
+<div class="dual-talks-lightbox" role="dialog" aria-modal="true" aria-hidden="true" aria-label="Conference photo viewer">
+  <div class="dual-talks-lightbox__panel">
+    <button class="dual-talks-lightbox__button dual-talks-lightbox__close" type="button" data-lightbox-close aria-label="Close photo viewer">✕</button>
+    <img class="dual-talks-lightbox__image" src="" alt="">
+    <div class="dual-talks-lightbox__bar">
+      <div>
+        <strong data-lightbox-title></strong>
+        <span class="dual-talks-sr">Photo</span>
+        <span data-lightbox-counter></span>
+      </div>
+      <div class="dual-talks-lightbox__actions">
+        <button class="dual-talks-lightbox__button" type="button" data-lightbox-prev aria-label="Previous photo">← Prev</button>
+        <button class="dual-talks-lightbox__button" type="button" data-lightbox-next aria-label="Next photo">Next →</button>
+      </div>
+    </div>
+  </div>
 </div>
 
+<script src="{{ '/assets/js/dual-talks.js' | relative_url }}" defer></script>
