@@ -46,82 +46,56 @@ textarea,
   font-family: var(--comic-font) !important;
 }
 
-/* Talks page: cover every text-bearing component, including labels and controls. */
+/* Talks page: force all descendants so component-level font rules cannot win. */
 .dual-talks-page,
-.dual-talks-page h1,
-.dual-talks-page h2,
-.dual-talks-page h3,
-.dual-talks-page p,
-.dual-talks-page button,
-.dual-talks-page a,
-.dual-talks-page span,
-.dual-talks-latest,
-.dual-talks-latest__head,
-.dual-talks-latest__meta,
-.dual-talks-carousel__caption,
-.dual-talks-carousel__button,
-.dual-talks-placeholder,
-.dual-talks-section-head,
-.dual-talks-section-head h2,
-.dual-talks-section-head p,
-.dual-talks-album,
-.dual-talks-album__count,
-.dual-talks-album__body,
-.dual-talks-album__body h3,
-.dual-talks-album__body p,
-.dual-talks-album__placeholder,
+.dual-talks-page *,
 .dual-talks-lightbox,
-.dual-talks-lightbox__bar,
-.dual-talks-lightbox__button {
+.dual-talks-lightbox * {
   font-family: var(--comic-font) !important;
 }
 
-/* Minimal Mistakes sidebar / author profile. */
+/* Minimal Mistakes sidebar / author profile: force all text descendants. */
 .sidebar,
-.sidebar h2,
-.sidebar h3,
-.sidebar h4,
-.sidebar h5,
-.sidebar h6,
-.sidebar p,
-.sidebar li,
-.sidebar a,
-.sidebar button,
+.sidebar *,
+.sidebar__right,
+.sidebar__right *,
 .author__content,
-.author__name,
-.sidebar .author__name,
-.author__bio,
+.author__content *,
 .author__urls-wrapper,
-.author__urls,
-.author__urls li,
-.author__urls a,
-.author__urls button,
-.sidebar__right {
+.author__urls-wrapper * {
   font-family: var(--comic-font) !important;
 }
 
-/* Keep icon glyphs and source-code blocks on their intended fonts. */
-.fa,
-.fas,
-.far,
-.fab,
-.ai,
-[class^="fa-"],
-[class*=" fa-"],
+/* Keep source-code blocks on a readable monospace stack. */
 code,
 pre,
 kbd,
 samp,
 .highlight,
-.highlight code {
-  font-family: inherit;
+.highlight code,
+.dual-talks-page code,
+.dual-talks-page pre,
+.sidebar code,
+.sidebar pre {
+  font-family: ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, "Liberation Mono", monospace !important;
 }
 
+/* Restore icon glyph fonts after the broad scoped overrides above. */
 .fa,
 .fas,
 .far,
 .fab,
 .ai,
+.dual-talks-page .fa,
+.dual-talks-page .fas,
+.dual-talks-page .far,
+.dual-talks-page .fab,
+.dual-talks-page .ai,
+.sidebar .fa,
+.sidebar .fas,
+.sidebar .far,
+.sidebar .fab,
+.sidebar .ai,
 [class^="fa-"],
 [class*=" fa-"] {
   font-family: "Font Awesome 5 Free", "Font Awesome 5 Brands", Academicons !important;
