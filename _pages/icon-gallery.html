@@ -1,0 +1,61 @@
+---
+layout: default
+title: "Icon Gallery"
+permalink: /icon-gallery/
+author_profile: false
+---
+
+<main class="dual-icon-gallery">
+  <header class="dual-icon-gallery__header">
+    <p class="dual-kicker"><span class="dual-crosshair" aria-hidden="true"></span>ICON LAB / MOTION STUDIES</p>
+    <h1>Animated technical motifs.</h1>
+    <p>Choose motifs by number. Example: “Home 01 → #07, Home 02 → #14, Home 03 → #19”. These are lightweight CSS/SVG studies designed to match the site’s research-lab visual language.</p>
+  </header>
+
+  <section class="dual-icon-grid" aria-label="Animated icon options">
+    {% assign icons = "Orbit Ellipses|Concentric Rings|Node Network|Polygon Mesh|Particle Cloud|Dotted Arc|Radar Sweep|Crosshair Target|Waveform|Spiral Search|Vector Field|Attention Matrix|Token Stream|Draft Verify Pipeline|Federated Star|Decentralized Mesh|Edge Cloud Layers|Wireless Coverage|Graph Pulse|Swarm|Consensus|Wireframe Cube|Torus Loop|Goodput Gauge" | split: "|" %}
+    {% assign uses = "decoding inference|optimization convergence|federated multi-agent|graph distributed|LLM embeddings|diffusion generative|wireless sensing|prediction optimization|signals communication|search optimization|flow matching|transformers LLM|speculative decoding|speculative decoding|federated learning|distributed AI|edge systems|wireless networks|distributed algorithms|multi-agent|consensus optimization|compute systems|generative systems|latency goodput" | split: "|" %}
+
+    {% for name in icons %}
+      {% assign idx = forloop.index %}
+      <article class="dual-icon-card">
+        <div class="dual-icon-card__top">
+          <span class="dual-icon-card__number">{% if idx < 10 %}0{% endif %}{{ idx }}</span>
+          <span class="dual-icon-card__tag">{{ uses[forloop.index0] }}</span>
+        </div>
+
+        <div class="dual-icon-stage icon-{{ idx }}" aria-hidden="true">
+          {% case idx %}
+            {% when 1 %}<span class="ellipse e1"></span><span class="ellipse e2"></span><span class="ellipse e3"></span>
+            {% when 2 %}<span class="ring r1"></span><span class="ring r2"></span><span class="ring r3"></span>
+            {% when 3 %}<span class="edge a"></span><span class="edge b"></span><i class="n n1"></i><i class="n n2"></i><i class="n n3"></i><i class="n n4"></i><i class="n n5"></i>
+            {% when 4 %}<svg viewBox="0 0 100 100"><polygon points="50,10 84,30 78,72 48,90 14,67 18,28"/><line x1="50" y1="10" x2="48" y2="90"/><line x1="18" y1="28" x2="78" y2="72"/><circle cx="50" cy="50" r="4"/></svg>
+            {% when 5 %}{% for i in (1..18) %}<i class="dot d{{ i }}"></i>{% endfor %}
+            {% when 6 %}<span class="arc a1"></span><span class="arc a2"></span><span class="core"></span>
+            {% when 7 %}<span class="radar-ring rr1"></span><span class="radar-ring rr2"></span><span class="sweep"></span><i class="blip b1"></i><i class="blip b2"></i>
+            {% when 8 %}<span class="target-ring t1"></span><span class="target-ring t2"></span><span class="cross x"></span><span class="cross y"></span><i class="target-dot"></i>
+            {% when 9 %}<svg viewBox="0 0 120 80"><path class="wave" d="M0 40 C15 5,30 75,45 40 S75 5,90 40 S120 75,135 40"/></svg>
+            {% when 10 %}<span class="spiral"></span><i class="runner"></i>
+            {% when 11 %}{% for i in (1..9) %}<i class="vec v{{ i }}">→</i>{% endfor %}
+            {% when 12 %}{% for i in (1..25) %}<i class="cell c{{ i }}"></i>{% endfor %}
+            {% when 13 %}<div class="tokens"><i></i><i></i><i></i><i></i><i></i></div><span class="token-gate"></span>
+            {% when 14 %}<div class="draft-line"><i></i><i></i><i></i></div><div class="verify-line"><i></i><i></i></div><span class="verify-core">✓</span>
+            {% when 15 %}<span class="hub"></span>{% for i in (1..6) %}<i class="client client{{ i }}"></i><b class="packet p{{ i }}"></b>{% endfor %}
+            {% when 16 %}{% for i in (1..7) %}<i class="mesh-node m{{ i }}"></i>{% endfor %}<span class="mesh-lines"></span>
+            {% when 17 %}<div class="layer l1">D</div><div class="layer l2">E</div><div class="layer l3">C</div><i class="flow-dot"></i>
+            {% when 18 %}<i class="tower tw1"></i><i class="tower tw2"></i><i class="tower tw3"></i><span class="coverage cv1"></span><span class="coverage cv2"></span><span class="coverage cv3"></span>
+            {% when 19 %}<svg viewBox="0 0 100 100"><line x1="20" y1="50" x2="50" y2="25"/><line x1="20" y1="50" x2="50" y2="75"/><line x1="50" y1="25" x2="82" y2="45"/><line x1="50" y1="75" x2="82" y2="45"/><circle cx="20" cy="50" r="5"/><circle cx="50" cy="25" r="5"/><circle cx="50" cy="75" r="5"/><circle class="pulse-node" cx="82" cy="45" r="6"/></svg>
+            {% when 20 %}{% for i in (1..12) %}<i class="swarm s{{ i }}"></i>{% endfor %}<span class="swarm-goal"></span>
+            {% when 21 %}{% for i in (1..6) %}<i class="consensus q{{ i }}"></i>{% endfor %}<span class="consensus-core"></span>
+            {% when 22 %}<div class="cube"><span class="front"></span><span class="back"></span><i class="c1"></i><i class="c2"></i><i class="c3"></i><i class="c4"></i></div>
+            {% when 23 %}<span class="torus t1"></span><span class="torus t2"></span><span class="torus t3"></span>
+            {% when 24 %}<span class="gauge"></span><span class="needle"></span><i class="gauge-dot"></i>
+          {% endcase %}
+        </div>
+
+        <h2>{{ name }}</h2>
+        <p>Best for: {{ uses[forloop.index0] }}</p>
+      </article>
+    {% endfor %}
+  </section>
+</main>
