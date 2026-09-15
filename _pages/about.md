@@ -1,18 +1,16 @@
 ---
+layout: home-dual
 permalink: /
-title: "About Me"
-excerpt: ""
-author_profile: true
-redirect_from: 
+title: "Quan La"
+excerpt: "Efficient AI systems, speculative decoding, and federated learning."
+author_profile: false
+redirect_from:
   - /about/
   - /about.html
   - /home/
-twitter-color: "#55acee"
-github-color: "#171516"
-blogger-color: "#F37100"
 ---
-👋 Hi, I’m Quan La. I am a Ph.D. candidate at the School of Computer Science at the University of Sydney, Australia, and a lecturer at Phenikaa University, Vietnam. I feel fortunate to have learned from Prof. <a href="https://nguyenhoangtran.github.io/" target="_blank">Nguyen Tran</a> and <a href="https://dual-grp.github.io/" target="_blank">DUAL</a> group members.
-- 👀 I’m interested in Federated Learning and Speculative Decoding.
-- 🌱 I’m currently working on Speculative Decoding for the Edge System.
-- 📫 How to reach me: [vanquan.la@sydney.edu.au](mailto:vanquan.la@sydney.edu.au) or [quan.lavan@phenikaa-uni.edu.vn](mailto:quan.lavan@phenikaa-uni.edu.vn)
-- 📫 Office Location: J12/1 Cleveland St, Darlington, NSW 2008, Australia
+I am a Ph.D. candidate at the School of Computer Science at the University of Sydney, Australia, and a lecturer at Phenikaa University, Vietnam. My research sits at the intersection of efficient AI systems, distributed computing, and machine learning.
+
+I am particularly interested in **speculative decoding**, **federated learning**, and practical AI for resource-constrained edge systems. I have been fortunate to learn from Prof. [Nguyen Tran](https://nguyenhoangtran.github.io/) and members of the [DUAL Group](https://dual-grp.github.io/).
+
+For research collaboration, student enquiries, or talks, please reach out by email.
