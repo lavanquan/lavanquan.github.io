@@ -2,26 +2,22 @@
 
 <div class="masthead">
   <div class="masthead__inner-wrap">
-    <div class="masthead__menu">
-      <nav id="site-nav" class="greedy-nav">
-        <button><div class="navicon"></div></button>
-        <ul class="visible-links">
-          <li class="masthead__menu-item masthead__menu-item--lg"><a href="{{ base_path }}/">{{ site.title }}</a></li>
-          {% for link in site.data.navigation.main %}
-            {% if link.url contains 'http' %}
-              {% assign domain = '' %}
-            {% else %}
-              {% assign domain = base_path %}
-            {% endif %}
-            <li class="masthead__menu-item"><a href="{{ domain }}{{ link.url }}">{{ link.title }}</a></li>
-          {% endfor %}
-          <li class="masthead__menu-item">
-            <button class="dual-theme-toggle" id="dual-theme-toggle" type="button" aria-label="Toggle dark mode">theme</button>
-          </li>
-        </ul>
-        <ul class="hidden-links hidden"></ul>
-      </nav>
-    </div>
+    <nav id="site-nav" class="dual-nav" aria-label="Primary navigation">
+      <a class="dual-nav__brand" href="{{ base_path }}/">{{ site.title }}</a>
+
+      <div class="dual-nav__links">
+        {% for link in site.data.navigation.main %}
+          {% if link.url contains 'http' %}
+            {% assign domain = '' %}
+          {% else %}
+            {% assign domain = base_path %}
+          {% endif %}
+          <a class="dual-nav__link" href="{{ domain }}{{ link.url }}">{{ link.title }}</a>
+        {% endfor %}
+      </div>
+
+      <button class="dual-theme-toggle dual-nav__theme" id="dual-theme-toggle" type="button" aria-label="Toggle dark mode">theme</button>
+    </nav>
   </div>
 </div>
 
