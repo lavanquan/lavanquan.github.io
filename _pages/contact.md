@@ -13,7 +13,10 @@ title: "Contact"
   <div class="dual-contact-page__grid">
     <section class="dual-contact-page__card">
       <h2>Contact</h2>
-      <p><strong>Email</strong><br><a href="mailto:{{ site.author.email }}">{{ site.author.email }}</a></p>
+      <p><strong>Email</strong><br>
+        <a href="mailto:vanquan.la@sydney.edu.au">vanquan.la@sydney.edu.au</a><br>
+        <a href="mailto:quan.lavan@phenikaa-uni.edu.vn">quan.lavan@phenikaa-uni.edu.vn</a>
+      </p>
       <p><strong>Location</strong><br>{{ site.author.location }}</p>
       <p><strong>Affiliation</strong><br>{{ site.author.employer }}</p>
     </section>
